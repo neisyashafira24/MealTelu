@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MealTelu — Direktori Delivery Makanan Sekitar Telkom University</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f8f6f2;
+      --surface: #ffffff;
+      --surface-alt: #f3efe8;
+      --text: #1c1917;
+      --muted: #6b625b;
+      --border: #e5dfd5;
+      --accent: #c83e2b;
+      --accent-hover: #a82f1f;
+      --accent-soft: #fdece8;
+      --green: #15803d;
+      --green-soft: #dcfce7;
+      --amber: #b45309;
+      --amber-soft: #fef3c7;
+      --shadow: 0 8px 24px rgba(28, 25, 23, 0.06);
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #fffdfb 0%, #f9efe7 100%);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 12px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(24px, 4vw, 34px);
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 15px;
+      max-width: 720px;
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .stat-pill {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .controls {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      margin-bottom: 22px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .controls {
+        grid-template-columns: 2fr 1fr 1fr auto;
+        align-items: center;
+      }
+    }
+
+    input[type="search"],
+    select {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-family: inherit;
+      font-size: 14px;
+      background: var(--surface);
+      color: var(--text);
+      outline: none;
+    }
+
+    input[type="search"]:focus,
+    select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(200, 62, 43, 0.12);
+    }
+
+    .toggle-open {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      padding: 8px 10px;
+      border-radius: 10px;
+      background: var(--surface-alt);
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .results-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 680px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #d6ccc0;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .vendor-name {
+      margin: 4px 0 0;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .meta-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--surface-alt);
+      color: var(--muted);
+    }
+
+    .status-pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .status-open {
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .status-closed {
+      background: var(--amber-soft);
+      color: var(--amber);
+    }
+
+    .hours {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .notes {
+      margin: 8px 0 0;
+      font-size: 13px;
+      color: #44403c;
+      background: var(--surface-alt);
+      padding: 10px 12px;
+      border-radius: 12px;
+    }
+
+    .menu-preview {
+      border-top: 1px dashed var(--border);
+      padding-top: 10px;
+    }
+
+    .menu-preview-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      font-size: 13px;
+      padding: 3px 0;
+    }
+
+    .menu-price {
+      font-weight: 700;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    button,
+    a.btn {
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 11px;
+      padding: 10px 12px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border: 1px solid transparent;
+      transition: background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      flex: 1;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-secondary {
+      background: var(--surface-alt);
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: #e9e3d8;
+    }
+
+    .empty-state {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 36px 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .error-box {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #991b1b;
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(28, 25, 23, 0.55);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 50;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--surface);
+      border-radius: 20px;
+      max-width: 620px;
+      width: 100%;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .modal-title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .modal-body {
+      padding: 16px 20px;
+      overflow-y: auto;
+    }
+
+    .modal-menu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 9px 0;
+      border-bottom: 1px solid #f1ece4;
+      font-size: 14px;
+    }
+
+    .modal-footer {
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg);
+    }
+
+    footer {
+      margin-top: 36px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="badge">MealTelu • Sekitar Telkom University</div>
+      <h1>Direktori Delivery Makanan Mahasiswa</h1>
+      <p class="subtitle">
+        Cari warung, cek jam buka, lihat daftar menu &amp; harga, lalu langsung chat WhatsApp pemesanan tanpa ribet.
+      </p>
+      <div class="stats" id="statsBar">
+        <span class="stat-pill">Memuat data...</span>
+      </div>
+    </header>
+
+    <div id="errorBox" class="error-box" style="display: none;"></div>
+
+    <section class="controls" aria-label="Filter warung dan menu">
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Cari nama warung, menu (mis. geprek, pancong, mie), atau area..."
+        autocomplete="off"
+      />
+      <select id="areaSelect" aria-label="Filter area">
+        <option value="">Semua Area</option>
+      </select>
+      <select id="categorySelect" aria-label="Filter kategori">
+        <option value="">Semua Kategori</option>
+      </select>
+      <label class="toggle-open">
+        <input id="openOnlyCheckbox" type="checkbox" />
+        Buka sekarang
+      </label>
+    </section>
+
+    <div class="results-meta">
+      <span id="resultCount">Menampilkan warung...</span>
+      <button id="resetBtn" type="button" class="btn-secondary" style="padding: 6px 12px; font-size: 12px;">
+        Reset Filter
+      </button>
+    </div>
+
+    <main id="vendorGrid" class="grid"></main>
+
+    <footer>
+      Data bersumber dari <code>mealtelu-v7-v25-2026-11-25-clean-v2.json</code>. Harga &amp; jam operasional dapat berubah sewaktu-waktu.
+    </footer>
+  </div>
+
+  <div id="menuModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalVendorName">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <h2 id="modalVendorName" class="modal-title">Nama Warung</h2>
+          <div id="modalVendorMeta" class="hours"></div>
+        </div>
+        <button id="closeModalBtn" type="button" class="btn-secondary" aria-label="Tutup modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalVendorNotes" class="notes" style="margin-top: 0; margin-bottom: 14px;"></p>
+        <div id="modalMenuList"></div>
+      </div>
+      <div class="modal-footer">
+        <span id="modalMenuCount" style="font-size: 12px; color: var(--muted); font-weight: 600;"></span>
+        <a id="modalWaLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="flex: 0 0 auto;">
+          Chat WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = "./mealtelu-v7-v25-2026-11-25-clean-v2.json";
+
+    const state = {
+      vendors: [],
+      search: "",
+      area: "",
+      category: "",
+      openOnly: false
+    };
+
+    const els = {
+      statsBar: document.getElementById("statsBar"),
+      errorBox: document.getElementById("errorBox"),
+      searchInput: document.getElementById("searchInput"),
+      areaSelect: document.getElementById("areaSelect"),
+      categorySelect: document.getElementById("categorySelect"),
+      openOnlyCheckbox: document.getElementById("openOnlyCheckbox"),
+      resetBtn: document.getElementById("resetBtn"),
+      resultCount: document.getElementById("resultCount"),
+      vendorGrid: document.getElementById("vendorGrid"),
+      menuModal: document.getElementById("menuModal"),
+      closeModalBtn: document.getElementById("closeModalBtn"),
+      modalVendorName: document.getElementById("modalVendorName"),
+      modalVendorMeta: document.getElementById("modalVendorMeta"),
+      modalVendorNotes: document.getElementById("modalVendorNotes"),
+      modalMenuList: document.getElementById("modalMenuList"),
+      modalMenuCount: document.getElementById("modalMenuCount"),
+      modalWaLink: document.getElementById("modalWaLink")
+    };
+
+    function formatRupiah(amount) {
+      return new Intl.NumberFormat("id-ID", {
+        style: "currency",
+        currency: "IDR",
+        maximumFractionDigits: 0
+      }).format(amount);
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function parseMinutes(hhmm) {
+      if (!hhmm || !hhmm.includes(":")) return null;
+      const [h, m] = hhmm.split(":").map(Number);
+      if (Number.isNaN(h) || Number.isNaN(m)) return null;
+      return h * 60 + m;
+    }
+
+    function isVendorOpenNow(vendor) {
+      const openMin = parseMinutes(vendor.openTime);
+      const closeMin = parseMinutes(vendor.closeTime);
+      if (openMin === null || closeMin === null) return true;
+
+      const now = new Date();
+      const curMin = now.getHours() * 60 + now.getMinutes();
+
+      if (openMin === 0 && closeMin >= 1439) return true;
+      if (closeMin >= openMin) {
+        return curMin >= openMin && curMin <= closeMin;
+      }
+      return curMin >= openMin || curMin <= closeMin;
+    }
+
+    function buildWaUrl(vendor) {
+      const cleanPhone = String(vendor.phone || "").replace(/[^0-9]/g, "");
+      const text = `Halo ${vendor.name}, saya mau pesan makanan lewat MealTelu.`;
+      return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(text)}`;
+    }
+
+    function populateFilters(vendors) {
+      const areas = [...new Set(vendors.map((v) => v.area).filter(Boolean))].sort((a, b) =>
+        a.localeCompare(b, "id")
+      );
+      const categories = [...new Set(vendors.map((v) => v.category).filter(Boolean))].sort((a, b) =>
+        a.localeCompare(b, "id")
+      );
+
+      for (const area of areas) {
+        const opt = document.createElement("option");
+        opt.value = area;
+        opt.textContent = area;
+        els.areaSelect.appendChild(opt);
+      }
+
+      for (const cat of categories) {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        els.categorySelect.appendChild(opt);
+      }
+    }
+
+    function renderStats(vendors) {
+      const totalMenus = vendors.reduce((sum, v) => sum + (Array.isArray(v.menus) ? v.menus.length : 0), 0);
+      const openCount = vendors.filter(isVendorOpenNow).length;
+      els.statsBar.innerHTML = `
+        <span class="stat-pill">${vendors.length} Warung</span>
+        <span class="stat-pill">${totalMenus} Menu</span>
+        <span class="stat-pill">${openCount} Buka Sekarang</span>
+      `;
+    }
+
+    function getFilteredVendors() {
+      const q = state.search.trim().toLowerCase();
+      return state.vendors.filter((v) => {
+        if (state.area && v.area !== state.area) return false;
+        if (state.category && v.category !== state.category) return false;
+        if (state.openOnly && !isVendorOpenNow(v)) return false;
+
+        if (!q) return true;
+
+        const inVendor =
+          (v.name || "").toLowerCase().includes(q) ||
+          (v.area || "").toLowerCase().includes(q) ||
+          (v.category || "").toLowerCase().includes(q) ||
+          (v.notes || "").toLowerCase().includes(q);
+
+        const inMenus =
+          Array.isArray(v.menus) &&
+          v.menus.some((m) => (m.name || "").toLowerCase().includes(q));
+
+        return inVendor || inMenus;
+      });
+    }
+
+    function renderVendors() {
+      const list = getFilteredVendors();
+      els.resultCount.textContent = `Menampilkan ${list.length} dari ${state.vendors.length} warung`;
+
+      if (list.length === 0) {
+        els.vendorGrid.innerHTML = `
+          <div class="empty-state" style="grid-column: 1 / -1;">
+            <strong>Tidak ada warung atau menu yang cocok.</strong>
+            <p style="margin: 6px 0 0;">Coba ubah kata kunci pencarian atau klik Reset Filter.</p>
+          </div>
+        `;
+        return;
+      }
+
+      els.vendorGrid.innerHTML = list
+        .map((v) => {
+          const open = isVendorOpenNow(v);
+          const menus = Array.isArray(v.menus) ? v.menus : [];
+          const previewMenus = menus.slice(0, 4);
+
+          return `
+            <article class="card">
+              <div>
+                <div class="card-top">
+                  <div>
+                    <div class="meta-tags">
+                      <span class="tag">${escapeHtml(v.area)}</span>
+                      <span class="tag">${escapeHtml(v.category)}</span>
+                    </div>
+                    <h2 class="vendor-name">${escapeHtml(v.name)}</h2>
+                  </div>
+                  <span class="status-pill ${open ? "status-open" : "status-closed"}">
+                    ${open ? "Buka" : "Tutup"}
+                  </span>
+                </div>
+
+                <div class="hours">Jam buka: ${escapeHtml(v.openTime)} – ${escapeHtml(v.closeTime)} WIB</div>
+
+                ${v.notes ? `<p class="notes">${escapeHtml(v.notes)}</p>` : ""}
+
+                <div class="menu-preview">
+                  <div class="menu-preview-title">
+                    <span>Contoh Menu</span>
+                    <span>${menus.length} item</span>
+                  </div>
+                  ${previewMenus
+                    .map(
+                      (m) => `
+                    <div class="menu-item">
+                      <span>${escapeHtml(m.name)}</span>
+                      <span class="menu-price">${formatRupiah(m.price)}</span>
+                    </div>
+                  `
+                    )
+                    .join("")}
+                </div>
+              </div>
+
+              <div class="card-actions">
+                <button type="button" class="btn-secondary" data-open-modal="${escapeHtml(v.id)}">
+                  Lihat Menu (${menus.length})
+                </button>
+                <a href="${buildWaUrl(v)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Pesan WA
+                </a>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+
+      els.vendorGrid.querySelectorAll("[data-open-modal]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const vendor = state.vendors.find((item) => item.id === btn.dataset.openModal);
+          if (vendor) openModal(vendor);
+        });
+      });
+    }
+
+    function openModal(vendor) {
+      const menus = Array.isArray(vendor.menus) ? vendor.menus : [];
+      els.modalVendorName.textContent = vendor.name;
+      els.modalVendorMeta.textContent = `${vendor.area} • ${vendor.category} • ${vendor.openTime}–${vendor.closeTime} WIB`;
+      els.modalVendorNotes.textContent = vendor.notes || "Tidak ada catatan tambahan.";
+      els.modalMenuCount.textContent = `Total ${menus.length} menu`;
+      els.modalWaLink.href = buildWaUrl(vendor);
+
+      els.modalMenuList.innerHTML = menus
+        .map(
+          (m) => `
+          <div class="modal-menu-row">
+            <span>${escapeHtml(m.name)}</span>
+            <strong class="menu-price">${formatRupiah(m.price)}</strong>
+          </div>
+        `
+        )
+        .join("");
+
+      els.menuModal.classList.add("open");
+    }
+
+    function closeModal() {
+      els.menuModal.classList.remove("open");
+    }
+
+    els.searchInput.addEventListener("input", (e) => {
+      state.search = e.target.value;
+      renderVendors();
+    });
+
+    els.areaSelect.addEventListener("change", (e) => {
+      state.area = e.target.value;
+      renderVendors();
+    });
+
+    els.categorySelect.addEventListener("change", (e) => {
+      state.category = e.target.value;
+      renderVendors();
+    });
+
+    els.openOnlyCheckbox.addEventListener("change", (e) => {
+      state.openOnly = e.target.checked;
+      renderVendors();
+    });
+
+    els.resetBtn.addEventListener("click", () => {
+      state.search = "";
+      state.area = "";
+      state.category = "";
+      state.openOnly = false;
+      els.searchInput.value = "";
+      els.areaSelect.value = "";
+      els.categorySelect.value = "";
+      els.openOnlyCheckbox.checked = false;
+      renderVendors();
+    });
+
+    els.closeModalBtn.addEventListener("click", closeModal);
+    els.menuModal.addEventListener("click", (e) => {
+      if (e.target === els.menuModal) closeModal();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeModal();
+    });
+
+    async function init() {
+      try {
+        const res = await fetch(DATA_URL, { cache: "no-store" });
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status} saat memuat ${DATA_URL}`);
+        }
+        const data = await res.json();
+        if (!Array.isArray(data)) {
+          throw new Error("Format JSON tidak berupa array warung.");
+        }
+        state.vendors = data;
+        populateFilters(data);
+        renderStats(data);
+        renderVendors();
+      } catch (err) {
+        els.errorBox.style.display = "block";
+        els.errorBox.innerHTML = `
+          <strong>Gagal memuat data warung:</strong> ${escapeHtml(err.message)}<br />
+          Pastikan file <code>mealtelu-v7-v25-2026-11-25-clean-v2.json</code> berada di folder yang sama dengan <code>index.html</code> dan dibuka lewat server/hosting (bukan <code>file://</code>).
+        `;
+        els.resultCount.textContent = "0 warung";
+        els.vendorGrid.innerHTML = "";
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
