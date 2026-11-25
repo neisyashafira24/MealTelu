@@ -1,0 +1,4154 @@
+[
+  {
+    "id": "v7",
+    "name": "Pancong Balap 2",
+    "area": "Panghegar",
+    "category": "Camilan & Martabak",
+    "phone": "6287739937414",
+    "openTime": "10:00",
+    "closeTime": "23:59",
+    "notes": "Jl. PGA Samp. Masjid Al-Mukhlisin. Kue pancong: 1 rasa 8K, 2 rasa 9K, 3 rasa 10K.",
+    "menus": [
+      {
+        "name": "Nasi Putih",
+        "price": 5000
+      },
+      {
+        "name": "Nasi Telor Jamur",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Telor Kornet",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Jamur Kornet",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Ayam Suir",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Suir Telor",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Suir Jamur",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Suir Kornet",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Penyet",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Crispy",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Bakar",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Tonkatsu",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Lada Hitam",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Asam Manis",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Saos Mentega",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam BBQ",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Yakiniku",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Teriyaki",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Beef Tonkatsu",
+        "price": 28000
+      },
+      {
+        "name": "Nasi Beef Lada Hitam",
+        "price": 28000
+      },
+      {
+        "name": "Nasi Beef Teriyaki",
+        "price": 28000
+      },
+      {
+        "name": "Nasi Beef BBQ",
+        "price": 28000
+      },
+      {
+        "name": "Nasi Udang Asam Manis",
+        "price": 23000
+      },
+      {
+        "name": "Nasi Sarden",
+        "price": 21000
+      },
+      {
+        "name": "Nasi Ayam Goreng",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Ayam Kornet",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Telor",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Jamur",
+        "price": 18000
+      },
+      {
+        "name": "Nasgor Biasa",
+        "price": 13000
+      },
+      {
+        "name": "Nasgor Kampung",
+        "price": 13000
+      },
+      {
+        "name": "Nasgor Mawut",
+        "price": 16000
+      },
+      {
+        "name": "Nasgor + Dadar",
+        "price": 16000
+      },
+      {
+        "name": "Nasgor + Sosis Baso",
+        "price": 16000
+      },
+      {
+        "name": "Nasgor Kornet",
+        "price": 16000
+      },
+      {
+        "name": "Nasgor Jamur",
+        "price": 16000
+      },
+      {
+        "name": "Nasgor + Ayam",
+        "price": 20000
+      },
+      {
+        "name": "Nasgor Special",
+        "price": 23000
+      },
+      {
+        "name": "Indomie Polos",
+        "price": 7000
+      },
+      {
+        "name": "Indomie Telor",
+        "price": 11000
+      },
+      {
+        "name": "Indomie Kornet",
+        "price": 11000
+      },
+      {
+        "name": "Indomie Keju",
+        "price": 11000
+      },
+      {
+        "name": "Internet",
+        "price": 15000
+      },
+      {
+        "name": "Internetju",
+        "price": 18000
+      },
+      {
+        "name": "Mie Tek-Tek",
+        "price": 12000
+      },
+      {
+        "name": "Mie Tek-Tek Double",
+        "price": 21000
+      },
+      {
+        "name": "Mie Nyemek",
+        "price": 12000
+      },
+      {
+        "name": "Omelet",
+        "price": 12000
+      },
+      {
+        "name": "Kue Pancong Coklat",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Keju",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Kacang",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Oreo",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Strawberry",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Blueberry",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Green Tea",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Tiramisu",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Taro",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Pisang",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong Choco Crunch",
+        "price": 8000
+      },
+      {
+        "name": "Kue Pancong 2 Rasa",
+        "price": 9000
+      },
+      {
+        "name": "Kue Pancong 3 Rasa",
+        "price": 10000
+      },
+      {
+        "name": "Teh Manis",
+        "price": 5000
+      },
+      {
+        "name": "Nutrisari",
+        "price": 5000
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 5000
+      },
+      {
+        "name": "Pop Ice",
+        "price": 5000
+      },
+      {
+        "name": "Josu",
+        "price": 6000
+      },
+      {
+        "name": "Cappuccino",
+        "price": 6000
+      },
+      {
+        "name": "Good Day Freeze",
+        "price": 6000
+      },
+      {
+        "name": "Chocolatos",
+        "price": 6000
+      },
+      {
+        "name": "Beng-Beng",
+        "price": 6000
+      },
+      {
+        "name": "Dancow",
+        "price": 7000
+      },
+      {
+        "name": "Milo",
+        "price": 6000
+      },
+      {
+        "name": "Kuku Bima Susu",
+        "price": 6000
+      },
+      {
+        "name": "Teh Tarik",
+        "price": 6000
+      },
+      {
+        "name": "Mochaccino",
+        "price": 6000
+      },
+      {
+        "name": "Indocafe",
+        "price": 6000
+      },
+      {
+        "name": "Luwak",
+        "price": 6000
+      },
+      {
+        "name": "ABC",
+        "price": 4000
+      },
+      {
+        "name": "Kapal Api",
+        "price": 4000
+      }
+    ]
+  },
+  {
+    "id": "v8",
+    "name": "Kedai by.safood",
+    "area": "Sukapura",
+    "category": "Mie & Bakso",
+    "phone": "62895631883887",
+    "openTime": "09:00",
+    "closeTime": "21:00",
+    "notes": "Buka Senin-Sabtu jam 09.00 - Sold Out. Pembayaran Cash / TF / QRIS. Delivery area Tel-U.",
+    "menus": [
+      {
+        "name": "Mie Jebew Polos",
+        "price": 7000
+      },
+      {
+        "name": "Mie Jebew Pangsit Ayam",
+        "price": 10000
+      },
+      {
+        "name": "Mie Jebew Bakso",
+        "price": 10000
+      },
+      {
+        "name": "Mie Jebew Tulang",
+        "price": 10000
+      },
+      {
+        "name": "Mie Jebew Ceker",
+        "price": 10000
+      },
+      {
+        "name": "Mie Jebew Chicken",
+        "price": 15000
+      },
+      {
+        "name": "Pangsit Ayam Chili Oil",
+        "price": 10000
+      },
+      {
+        "name": "Ceker Mercon",
+        "price": 10000
+      },
+      {
+        "name": "Tulang Mercon",
+        "price": 10000
+      },
+      {
+        "name": "Kwetiau Polos",
+        "price": 5000
+      },
+      {
+        "name": "Kwetiau Pangsit Ayam",
+        "price": 6000
+      },
+      {
+        "name": "Kwetiau Bakso",
+        "price": 6000
+      },
+      {
+        "name": "Kwetiau Tulang",
+        "price": 6000
+      },
+      {
+        "name": "Kwetiau Ceker",
+        "price": 6000
+      },
+      {
+        "name": "Kwetiau Chicken",
+        "price": 13000
+      },
+      {
+        "name": "Spaghetti Polos",
+        "price": 7000
+      },
+      {
+        "name": "Spaghetti Pangsit Ayam",
+        "price": 10000
+      },
+      {
+        "name": "Spaghetti Bakso",
+        "price": 10000
+      },
+      {
+        "name": "Spaghetti Tulang",
+        "price": 10000
+      },
+      {
+        "name": "Spaghetti Ceker",
+        "price": 10000
+      },
+      {
+        "name": "Spaghetti Chicken",
+        "price": 15000
+      },
+      {
+        "name": "Paket Hemat Ayam Goreng",
+        "price": 20000
+      },
+      {
+        "name": "Paket Hemat Ayam Serundeng",
+        "price": 22000
+      },
+      {
+        "name": "Paket Hemat Ayam Rica-Rica",
+        "price": 20000
+      },
+      {
+        "name": "Paket Hemat Ayam Rendang",
+        "price": 23000
+      },
+      {
+        "name": "Paket Hemat Pepes Ayam",
+        "price": 23000
+      },
+      {
+        "name": "Paket Hemat Ayam Bakar",
+        "price": 20000
+      },
+      {
+        "name": "Paket Komplit Ayam Goreng",
+        "price": 24000
+      },
+      {
+        "name": "Paket Komplit Ayam Bakar",
+        "price": 24000
+      },
+      {
+        "name": "Paket Komplit Ayam Serundeng",
+        "price": 26000
+      },
+      {
+        "name": "Paket Komplit Ayam Rica-Rica",
+        "price": 24000
+      },
+      {
+        "name": "Paket Komplit Ayam Rendang",
+        "price": 27000
+      },
+      {
+        "name": "Paket Komplit Pepes Ayam",
+        "price": 27000
+      },
+      {
+        "name": "Topping Pangsit Ayam",
+        "price": 1000
+      },
+      {
+        "name": "Topping Bakso",
+        "price": 1000
+      },
+      {
+        "name": "Topping Tulang",
+        "price": 1000
+      },
+      {
+        "name": "Topping Ceker",
+        "price": 1000
+      },
+      {
+        "name": "Topping Chicken",
+        "price": 8000
+      },
+      {
+        "name": "Ala Carte Ayam Goreng",
+        "price": 12000
+      },
+      {
+        "name": "Ala Carte Ayam Serundeng",
+        "price": 14000
+      },
+      {
+        "name": "Ala Carte Ayam Rica-Rica",
+        "price": 12000
+      },
+      {
+        "name": "Ala Carte Ayam Rendang",
+        "price": 15000
+      },
+      {
+        "name": "Ala Carte Pepes Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Ala Carte Tahu",
+        "price": 1500
+      },
+      {
+        "name": "Ala Carte Tempe",
+        "price": 1500
+      },
+      {
+        "name": "Ala Carte Kol Goreng",
+        "price": 3000
+      },
+      {
+        "name": "Ala Carte Nasi",
+        "price": 5000
+      },
+      {
+        "name": "Ala Carte Ekstra Sambal",
+        "price": 2000
+      },
+      {
+        "name": "Ala Carte Es Teh Poci Jumbo",
+        "price": 5000
+      },
+      {
+        "name": "Ala Carte Ayam Bakar",
+        "price": 12000
+      }
+    ]
+  },
+  {
+    "id": "v9",
+    "name": "Kantin Boga Rasa (KBR)",
+    "area": "Panghegar",
+    "category": "Nasi & Geprek",
+    "phone": "6282120582634",
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "notes": "Jl. Panghegar. Pilihan sambal: Sambal Ijo, Sambal Matah, Sambal Cabe Garam, Sambal Merah, Saos Asam Manis, Saos Asam Manis Pedas.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Bakar",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Cabe Garam",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Crispy",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Fillet Crispy",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Gulai",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kari",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Katsu",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kecap",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kremes",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Selimut",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Suwir Mercon",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Cumi Asam Manis",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Cumi Crispy",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Lele Crispy",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Lele Kremes",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Udang Asam Manis",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Udang Crispy",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Bakso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Ceplok/Dadar",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Special",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Telor Ceplok",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Dadar Biasa",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Dadar Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Dadar Baso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Dadar Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Dadar Mie",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Dadar Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Dadar Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Baso",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Ceplok/Dadar",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng Special",
+        "price": 17000
+      },
+      {
+        "name": "Kwetiau Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Baso",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Ceplok/Dadar",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Special",
+        "price": 17000
+      },
+      {
+        "name": "Aqua 600 ml",
+        "price": 5000
+      },
+      {
+        "name": "Aqua 1500 ml",
+        "price": 7000
+      },
+      {
+        "name": "Es Cappuccino",
+        "price": 7000
+      },
+      {
+        "name": "Es Josu",
+        "price": 7000
+      },
+      {
+        "name": "Es Kuku Bima",
+        "price": 7000
+      },
+      {
+        "name": "Es Lemon Tea",
+        "price": 8000
+      },
+      {
+        "name": "Es Milo",
+        "price": 8000
+      },
+      {
+        "name": "Es Nutrisari",
+        "price": 5000
+      },
+      {
+        "name": "Es Teh",
+        "price": 5000
+      },
+      {
+        "name": "Es Teh Tarik",
+        "price": 7000
+      }
+    ]
+  },
+  {
+    "id": "v10",
+    "name": "Kantin Dimas",
+    "area": "Sukabirus",
+    "category": "Nasi & Geprek",
+    "phone": "6281220676104",
+    "openTime": "09:00",
+    "closeTime": "22:00",
+    "notes": "Jl. Sukabirus Gg. Demang No. 118. Ongkir 1K / Porsi (Ongkir jauh 1000 / Porsi).",
+    "menus": [
+      {
+        "name": "Nasi Putih",
+        "price": 5000
+      },
+      {
+        "name": "Paket Ayam Bakar Tahu Tempe",
+        "price": 16000
+      },
+      {
+        "name": "Paket Ayam Cobek Tahu Tempe",
+        "price": 16000
+      },
+      {
+        "name": "Paket Ayam Goreng Tahu Tempe",
+        "price": 16000
+      },
+      {
+        "name": "Paket Pecel Lele Tahu Tempe",
+        "price": 15000
+      },
+      {
+        "name": "Paket Lele Cobek Tahu Tempe",
+        "price": 15000
+      },
+      {
+        "name": "Paket Ayam Kipas Tahu Tempe",
+        "price": 17000
+      },
+      {
+        "name": "Paket Dars Net Tahu Tempe",
+        "price": 13000
+      },
+      {
+        "name": "Paket Darmi Tahu Tempe",
+        "price": 17000
+      },
+      {
+        "name": "Paket Darsis Tahu Tempe",
+        "price": 13000
+      },
+      {
+        "name": "Paket Daryam Tahu Tempe",
+        "price": 13000
+      },
+      {
+        "name": "Paket Darhu Tahu Tempe",
+        "price": 13000
+      },
+      {
+        "name": "Paket Darcap Tahu Tempe",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Goreng Spesial",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Biasa",
+        "price": 13000
+      },
+      {
+        "name": "Mie Intel Rebus",
+        "price": 10000
+      },
+      {
+        "name": "Mie Intel Goreng",
+        "price": 11000
+      },
+      {
+        "name": "Es Teh Manis",
+        "price": 4000
+      },
+      {
+        "name": "Teh Manis Panas",
+        "price": 3000
+      },
+      {
+        "name": "Milo",
+        "price": 6000
+      },
+      {
+        "name": "Josu (Extra Joss Susu)",
+        "price": 6000
+      },
+      {
+        "name": "Extra Joss",
+        "price": 4000
+      },
+      {
+        "name": "Kuku Bima",
+        "price": 4000
+      },
+      {
+        "name": "Kuku Bima Susu",
+        "price": 6000
+      },
+      {
+        "name": "Nurdin (Nutrisari Dingin)",
+        "price": 4000
+      },
+      {
+        "name": "Es Cappuccino",
+        "price": 6000
+      },
+      {
+        "name": "Es Susu Putih/Coklat",
+        "price": 6000
+      },
+      {
+        "name": "Kopi Hitam",
+        "price": 4000
+      },
+      {
+        "name": "Air Mineral",
+        "price": 4000
+      },
+      {
+        "name": "Teh Tarik",
+        "price": 6000
+      }
+    ]
+  },
+  {
+    "id": "v11",
+    "name": "Warung Kameumeut",
+    "area": "Sukabirus",
+    "category": "Ayam & Bebek",
+    "phone": "6289625341812",
+    "openTime": "09:00",
+    "closeTime": "14:00",
+    "notes": "Free order area Sukbir, luar ongkir 2K. Makan di tempat free refill nasi.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Ketumbar",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 17000
+      },
+      {
+        "name": "Paket Komplit Ketumbar",
+        "price": 20000
+      },
+      {
+        "name": "Paket Komplit Geprek",
+        "price": 20000
+      },
+      {
+        "name": "Ayam Ketumbar/Geprek",
+        "price": 12000
+      },
+      {
+        "name": "Indomie + Ayam",
+        "price": 17000
+      },
+      {
+        "name": "Tahu/Tempe",
+        "price": 1500
+      },
+      {
+        "name": "Usus Ketumbar",
+        "price": 2000
+      },
+      {
+        "name": "Nasi Putih",
+        "price": 5000
+      },
+      {
+        "name": "Kangkung",
+        "price": 7000
+      },
+      {
+        "name": "Pepes Tahu",
+        "price": 4000
+      },
+      {
+        "name": "Ayam Serundeng",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Ungkeb",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Bakar",
+        "price": 13000
+      },
+      {
+        "name": "Pepes Ayam",
+        "price": 13000
+      },
+      {
+        "name": "Ati Ampela",
+        "price": 5000
+      },
+      {
+        "name": "Kepala Ayam",
+        "price": 3000
+      },
+      {
+        "name": "Usus/Kulit",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "id": "v12",
+    "name": "Ayam Kremes Mas Jono",
+    "area": "Sukabirus",
+    "category": "Ayam & Bebek",
+    "phone": "6282218388989",
+    "openTime": "08:00",
+    "closeTime": "22:00",
+    "notes": "Jl. Sukabirus C45 Telkom University Bandung.",
+    "menus": [
+      {
+        "name": "Ayam Kremes",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Ayam Kremes",
+        "price": 17000
+      },
+      {
+        "name": "Paket Ayam Kremes",
+        "price": 20000
+      },
+      {
+        "name": "Paket Komplit Ayam Kremes",
+        "price": 21000
+      },
+      {
+        "name": "Ayam Gledek",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Ayam Gledek",
+        "price": 17000
+      },
+      {
+        "name": "Paket Ayam Gledek",
+        "price": 20000
+      },
+      {
+        "name": "Paket Komplit Ayam Gledek",
+        "price": 21000
+      },
+      {
+        "name": "Ayam Bakar Madu",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Ayam Madu",
+        "price": 18000
+      },
+      {
+        "name": "Paket Ayam Madu",
+        "price": 21000
+      },
+      {
+        "name": "Paket Komplit Ayam Madu",
+        "price": 22000
+      },
+      {
+        "name": "Lele Kremes",
+        "price": 11000
+      },
+      {
+        "name": "Nasi Lele Kremes",
+        "price": 16000
+      },
+      {
+        "name": "Paket Lele Kremes",
+        "price": 19000
+      },
+      {
+        "name": "Paket Komplit Lele Kremes",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng Mlarat",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Goreng Biasa",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Spesial",
+        "price": 19000
+      },
+      {
+        "name": "Mie Goreng/Kuah",
+        "price": 16000
+      },
+      {
+        "name": "Bihun Goreng/Kuah",
+        "price": 16000
+      },
+      {
+        "name": "Kwetiau Goreng/Kuah",
+        "price": 16000
+      },
+      {
+        "name": "Capcay",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Putih",
+        "price": 5000
+      },
+      {
+        "name": "Tahu",
+        "price": 2000
+      },
+      {
+        "name": "Tempe",
+        "price": 1000
+      },
+      {
+        "name": "Kremesan",
+        "price": 2000
+      },
+      {
+        "name": "Telur Dadar",
+        "price": 5000
+      },
+      {
+        "name": "Sambal",
+        "price": 2000
+      },
+      {
+        "name": "Teh Panas/Dingin",
+        "price": 3000
+      },
+      {
+        "name": "Jeruk Panas/Dingin",
+        "price": 6000
+      },
+      {
+        "name": "Kopi Hitam",
+        "price": 4000
+      },
+      {
+        "name": "Cappuccino",
+        "price": 5000
+      },
+      {
+        "name": "Nutrisari",
+        "price": 4000
+      },
+      {
+        "name": "Milo",
+        "price": 5000
+      },
+      {
+        "name": "Air Mineral",
+        "price": 4000
+      }
+    ]
+  },
+  {
+    "id": "v13",
+    "name": "Kedai Dua Putra",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6285117612418",
+    "openTime": "08:00",
+    "closeTime": "22:00",
+    "notes": "Gratis ongkir, admin QR 500. Pancong 2 topping 8k.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Geprek Sambal Merah",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Geprek Sambal Ijo",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Penyet",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Bakar",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Pecel Ayam",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Kremes",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Cincang + Jamur Goreng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Goreng",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor + Jamur Goreng",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor + Kornet",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor + Nugget",
+        "price": 11000
+      },
+      {
+        "name": "Nasi Telor + Sosis",
+        "price": 11000
+      },
+      {
+        "name": "Nasi Chicken Geprek Sambal Merah",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Chicken Geprek Sambal Ijo",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Chicken Sambal Penyet",
+        "price": 16000
+      },
+      {
+        "name": "Onion Ring Saus Keju",
+        "price": 15000
+      },
+      {
+        "name": "Onion Ring Saus BBQ",
+        "price": 15000
+      },
+      {
+        "name": "Onion Ring Saus Pedas",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Spesial",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Maut",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Risma",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Ayam Goreng",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kampung Ayam Geprek",
+        "price": 19000
+      },
+      {
+        "name": "Nasi Ayam Kocak",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Krispi Saus BBQ",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Krispi Saus Keju",
+        "price": 18000
+      },
+      {
+        "name": "KPC. Milo",
+        "price": 8000
+      },
+      {
+        "name": "KPC. Keju",
+        "price": 7000
+      },
+      {
+        "name": "KPC. Tiramisu",
+        "price": 7000
+      },
+      {
+        "name": "KPC. Green Tea",
+        "price": 7000
+      },
+      {
+        "name": "KPC. Coklat",
+        "price": 7000
+      },
+      {
+        "name": "KPC. Oreo",
+        "price": 7000
+      },
+      {
+        "name": "KPC. Kacang",
+        "price": 7000
+      },
+      {
+        "name": "KPC. Taro",
+        "price": 7000
+      },
+      {
+        "name": "KPC. 2 Topping",
+        "price": 8000
+      },
+      {
+        "name": "Es Teh Manis",
+        "price": 4000
+      },
+      {
+        "name": "Es Nutrisari",
+        "price": 4000
+      },
+      {
+        "name": "Es Kopi Luwak",
+        "price": 6000
+      },
+      {
+        "name": "Es Good Day Cappuccino",
+        "price": 7000
+      },
+      {
+        "name": "Es Milo Susu",
+        "price": 8000
+      },
+      {
+        "name": "Es Creamy Latte",
+        "price": 6000
+      },
+      {
+        "name": "Es Teh Tarik",
+        "price": 7000
+      },
+      {
+        "name": "Es ABC Klepon",
+        "price": 7000
+      },
+      {
+        "name": "Es Good Day Freeze",
+        "price": 7000
+      },
+      {
+        "name": "Mie Tek-Tek",
+        "price": 12000
+      },
+      {
+        "name": "Mie Nyemek",
+        "price": 12000
+      },
+      {
+        "name": "Omelet",
+        "price": 11000
+      },
+      {
+        "name": "Mie Goreng Telor",
+        "price": 11000
+      },
+      {
+        "name": "Mie Goreng Kornet",
+        "price": 12000
+      },
+      {
+        "name": "Mie Rebus Telor",
+        "price": 11000
+      }
+    ]
+  },
+  {
+    "id": "v14",
+    "name": "Kantin Lestari",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6283851333828",
+    "openTime": "08:30",
+    "closeTime": "22:00",
+    "notes": "Masakan dadakan, menerima pesanan nasi box & catering.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Bakar Karamel",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Penyet",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Goreng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Tepung",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kecap",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Rica-Rica",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Tongseng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Katsu",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Sambal Ijo",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Balado",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Suwir",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Teriyaki",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Serundeng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Sosis Bakar Karamel",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok",
+        "price": 11000
+      },
+      {
+        "name": "Nasi Telor Dadar Ayam",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Bakso",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Sosis",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Kulit",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Ati",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Kornet",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Keju",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Tahu/Tempe",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar Spesial",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Telor Dadar Spesial Komplit",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Fuyunghai Karamel",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Fuyunghai Spesial",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Fuyunghai Spesial Komplit",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Omelet / Dadar",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Double Telor",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Omelet Spesial",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Omelet Spesial Komplit",
+        "price": 18000
+      },
+      {
+        "name": "Sayur Sop Biasa",
+        "price": 7000
+      },
+      {
+        "name": "Sayur Sop Special",
+        "price": 10000
+      },
+      {
+        "name": "Capcay Biasa",
+        "price": 8000
+      },
+      {
+        "name": "Capcay Spesial",
+        "price": 11000
+      },
+      {
+        "name": "Cah Kangkung",
+        "price": 6000
+      },
+      {
+        "name": "Tahu/Tempe",
+        "price": 1500
+      },
+      {
+        "name": "Dadar Omlet",
+        "price": 11000
+      },
+      {
+        "name": "Fuyunghai",
+        "price": 10000
+      },
+      {
+        "name": "Nasi Goreng Putih",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Goreng Vegetable",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Goreng Balado",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Goreng Maut / Mie",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Suwir Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Bakso / Sosis / Ati",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Keju / Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Spesial",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Goreng Spesial Komplit",
+        "price": 18000
+      },
+      {
+        "name": "Nasgor Maut / Mie Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasgor Maut / Mie Spesial Komplit",
+        "price": 19000
+      },
+      {
+        "name": "Nasgor Ayam Bakar Karamel",
+        "price": 24000
+      },
+      {
+        "name": "Nasgor Ayam Geprek / Goreng",
+        "price": 24000
+      },
+      {
+        "name": "Nasgor Ayam Penyet / Tepung",
+        "price": 24000
+      },
+      {
+        "name": "Nasgor Ayam Tongseng",
+        "price": 25000
+      },
+      {
+        "name": "Nasgor Ayam Rica-Rica",
+        "price": 25000
+      },
+      {
+        "name": "Nasgor Ayam Sambal Ijo",
+        "price": 25000
+      },
+      {
+        "name": "Nasgor Ayam Balado",
+        "price": 25000
+      },
+      {
+        "name": "Nasgor Ayam Fuyunghai",
+        "price": 21000
+      },
+      {
+        "name": "Nasgor Ayam Katsu",
+        "price": 24000
+      },
+      {
+        "name": "Nasgor Ayam Serundeng",
+        "price": 25000
+      },
+      {
+        "name": "Nasgor Ayam Teriyaki",
+        "price": 25000
+      },
+      {
+        "name": "OA Sayur Telor",
+        "price": 12000
+      },
+      {
+        "name": "OA Sayur Telor + Suwir Ayam",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Ati",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Sosis",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Baso",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Kulit",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Kornet",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Keju",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Tahu/Tempe",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Nugget",
+        "price": 13000
+      },
+      {
+        "name": "OA Sayur Telor + Spesial",
+        "price": 16000
+      },
+      {
+        "name": "OA Sayur Telor + Spesial Komplit",
+        "price": 17000
+      },
+      {
+        "name": "Paket A (Nasi+Telor+Sayur)",
+        "price": 13000
+      },
+      {
+        "name": "Paket B (Nasi+Telor+Nugget)",
+        "price": 13000
+      },
+      {
+        "name": "Paket C (Nasi+Telor+Sosis/Baso)",
+        "price": 13000
+      },
+      {
+        "name": "Paket D (Nasi+Ayam+Tahu/Tempe+EsTeh)",
+        "price": 23000
+      },
+      {
+        "name": "Mie Rebus/Goreng",
+        "price": 6000
+      },
+      {
+        "name": "Mie R/G + Telor",
+        "price": 11000
+      },
+      {
+        "name": "Mie R/G + Telor + Suwir Ayam / Ati",
+        "price": 13000
+      },
+      {
+        "name": "Mie R/G + Telor + Sosis / Bakso",
+        "price": 12000
+      },
+      {
+        "name": "Mie R/G + Telor + Kornet/Kulit/Keju",
+        "price": 13000
+      },
+      {
+        "name": "Mie R/G Spesial",
+        "price": 14000
+      },
+      {
+        "name": "Mie R/G Spesial Komplit",
+        "price": 15000
+      },
+      {
+        "name": "Mie Rebus/Goreng Dobel",
+        "price": 16000
+      },
+      {
+        "name": "Mie Tek-Tek Biasa",
+        "price": 13000
+      },
+      {
+        "name": "Mie Tek-Tek Dobel",
+        "price": 17000
+      },
+      {
+        "name": "Mie Tek-Tek Ayam/Bakso/Sosis",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tek-Tek Kornet/Kulit/Keju",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tek-Tek Spesial",
+        "price": 15000
+      },
+      {
+        "name": "Mie Tek-Tek Spesial Komplit",
+        "price": 16000
+      },
+      {
+        "name": "Kwetiau Biasa",
+        "price": 14000
+      },
+      {
+        "name": "Kwetiau Spesial",
+        "price": 16000
+      },
+      {
+        "name": "Kwetiau Spesial Komplit",
+        "price": 17000
+      },
+      {
+        "name": "Bihun Kuah/Goreng",
+        "price": 14000
+      },
+      {
+        "name": "Bihun Kuah/Goreng Spesial",
+        "price": 16000
+      },
+      {
+        "name": "Cappuccino Panas/Dingin",
+        "price": 6000
+      },
+      {
+        "name": "Nutrisari",
+        "price": 5000
+      },
+      {
+        "name": "Teh Manis Panas/Dingin",
+        "price": 5000
+      },
+      {
+        "name": "Jus Jeruk Panas/Dingin",
+        "price": 8000
+      },
+      {
+        "name": "Susu Putih/ Coklat",
+        "price": 5000
+      },
+      {
+        "name": "Milo Susu Panas/Dingin",
+        "price": 8000
+      },
+      {
+        "name": "Milo Panas/Dingin",
+        "price": 6000
+      },
+      {
+        "name": "Extra Joss / Kuku Bima Susu",
+        "price": 8000
+      },
+      {
+        "name": "Fanta/CocaCola Susu",
+        "price": 10000
+      },
+      {
+        "name": "Teh Tarik Panas/Dingin",
+        "price": 6000
+      },
+      {
+        "name": "Air Mineral Kecil",
+        "price": 5000
+      },
+      {
+        "name": "Air Mineral Besar",
+        "price": 7000
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 6000
+      },
+      {
+        "name": "Dancow Putih/Coklat",
+        "price": 8000
+      },
+      {
+        "name": "Aneka Pop Ice",
+        "price": 6000
+      }
+    ]
+  },
+  {
+    "id": "v15",
+    "name": "Chicken William",
+    "area": "Permata Buah Batu",
+    "category": "Ayam & Bebek",
+    "phone": "6282110009878",
+    "openTime": "09:00",
+    "closeTime": "20:00",
+    "notes": "Free upsize nasi & free delivery area Permata Buah Batu (PBB) (keluar PBB max 2km ongkir 3k).",
+    "menus": [
+      {
+        "name": "Nasi Boneless Chicken (Paha Atas)",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Chicken Katsu",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Chicken Cheesyblast",
+        "price": 30000
+      },
+      {
+        "name": "Nasi Chicken Crumble (Free Bumbu Tabur)",
+        "price": 23000
+      },
+      {
+        "name": "Nasi Dory Crispy",
+        "price": 23000
+      },
+      {
+        "name": "Nasi Spicy Boneless Chicken",
+        "price": 23000
+      },
+      {
+        "name": "Nasi Pop Crumble",
+        "price": 21000
+      },
+      {
+        "name": "Nasi Chicken Popcorn",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Chicken Jumbo (Dada Fillet)",
+        "price": 19000
+      },
+      {
+        "name": "Nasi Boneless Geprek",
+        "price": 23000
+      },
+      {
+        "name": "Nasi Lada/Daun Jeruk Boneless Sambal Geprek",
+        "price": 25000
+      },
+      {
+        "name": "Ricebowl Chicken Gochujang",
+        "price": 20000
+      },
+      {
+        "name": "Ricebowl Chicken Mentai",
+        "price": 20000
+      },
+      {
+        "name": "Ricebowl Chicken Spicy",
+        "price": 20000
+      },
+      {
+        "name": "Ricebowl Pop Crumble",
+        "price": 20000
+      },
+      {
+        "name": "Add-On Nasi Ganti Kentang",
+        "price": 6000
+      },
+      {
+        "name": "Add-On Nasi",
+        "price": 6000
+      },
+      {
+        "name": "Add-On Ganti Nasi Lada Daun Jeruk / Nasi Daun Jeruk",
+        "price": 2000
+      },
+      {
+        "name": "Add-On Porsi Nasi Lada Daun Jeruk / Nasi Daun Jeruk",
+        "price": 8000
+      },
+      {
+        "name": "Add-On Telor Crispy",
+        "price": 9000
+      },
+      {
+        "name": "Add-On Telor Dadar, Ceplok, Scramble Egg",
+        "price": 7000
+      },
+      {
+        "name": "Add-On French Fries + Es Teh",
+        "price": 15000
+      },
+      {
+        "name": "Add-On Bayem Crispy",
+        "price": 3000
+      },
+      {
+        "name": "Gageh Bundling Kopsu Aren/Matcha/Roasted Milktea",
+        "price": 17000
+      },
+      {
+        "name": "Sauce BBQ",
+        "price": 2000
+      },
+      {
+        "name": "Sauce Teriyaki",
+        "price": 2000
+      },
+      {
+        "name": "Sauce Sambal Geprek",
+        "price": 3000
+      },
+      {
+        "name": "Sauce Gochujang",
+        "price": 4000
+      },
+      {
+        "name": "Sauce Cheese Sauce",
+        "price": 4000
+      },
+      {
+        "name": "Sauce Mozarella",
+        "price": 6000
+      },
+      {
+        "name": "Sauce Mushroom",
+        "price": 3000
+      },
+      {
+        "name": "Sauce Chili Oil",
+        "price": 3000
+      },
+      {
+        "name": "Sauce Spicy BBQ",
+        "price": 3000
+      },
+      {
+        "name": "Sauce Korean Spicy",
+        "price": 4000
+      },
+      {
+        "name": "Sauce Bumbu Tabur (Balado, BBQ, Jagung Bakar, Rumput Laut, Keju)",
+        "price": 1000
+      },
+      {
+        "name": "Es Teh",
+        "price": 5000
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 8000
+      },
+      {
+        "name": "Esteh Jumbo",
+        "price": 7000
+      },
+      {
+        "name": "Air Mineral",
+        "price": 5000
+      },
+      {
+        "name": "Ice Lychetea",
+        "price": 10000
+      },
+      {
+        "name": "Ice Blackcurrent",
+        "price": 10000
+      },
+      {
+        "name": "Ice Dark Chocolate",
+        "price": 12000
+      },
+      {
+        "name": "Kopi Susu Wilcof",
+        "price": 12000
+      },
+      {
+        "name": "Teh Tarik",
+        "price": 9000
+      },
+      {
+        "name": "Es Jeruk",
+        "price": 6000
+      },
+      {
+        "name": "Matcha Latte",
+        "price": 12000
+      }
+    ]
+  },
+  {
+    "id": "v16",
+    "name": "Aby Food",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6285172177303",
+    "openTime": "07:00",
+    "closeTime": "20:30",
+    "notes": "Free delivery min. 15K.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Goreng",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Kremes",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Rica-Rica",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kecap",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Sambal Matah",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Serundeng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam BBQ",
+        "price": 17000
+      },
+      {
+        "name": "Paket Ayam Ireng",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Mawut",
+        "price": 16000
+      },
+      {
+        "name": "Mie Goreng Ayam",
+        "price": 16000
+      },
+      {
+        "name": "Mie Geprek Telor Ceplok",
+        "price": 16000
+      },
+      {
+        "name": "Kwetiau Goreng / Kuah",
+        "price": 16000
+      },
+      {
+        "name": "Capcay Goreng / Kuah",
+        "price": 16000
+      },
+      {
+        "name": "Bihun Goreng / Kuah",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Cah Kangkung Bakso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Sop",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Pecel Lele",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Baso Asam Manis",
+        "price": 15000
+      },
+      {
+        "name": "Burger",
+        "price": 14000
+      },
+      {
+        "name": "Roti Kukus Coklat Keju",
+        "price": 8000
+      },
+      {
+        "name": "Cheesecuit",
+        "price": 18000
+      },
+      {
+        "name": "Basreng Chili Oil",
+        "price": 10000
+      }
+    ]
+  },
+  {
+    "id": "v17",
+    "name": "Bang Torra Delivery",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6283839158151",
+    "openTime": "09:00",
+    "closeTime": "22:00",
+    "notes": "Layanan delivery area sekitar Tel-U.",
+    "menus": [
+      {
+        "name": "Ayam Mercon + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Ayam Serundeng + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Ikan Nila Goreng Mercon + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Mie Goreng Ayam Geprek",
+        "price": 18000
+      },
+      {
+        "name": "Ayam Bakar Bumbu Rujak + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Ayam Goreng Penyet + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Ikan Mas Goreng Sambal Mercon + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Chicken Asam Manis + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Telur Dadar Ati + Nasi",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Goreng Ayam",
+        "price": 14000
+      },
+      {
+        "name": "Ayam Geprek + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Es Teh",
+        "price": 5000
+      },
+      {
+        "name": "Es Jeruk",
+        "price": 7000
+      },
+      {
+        "name": "Es Nutrisari",
+        "price": 5000
+      },
+      {
+        "name": "Es Cappuccino",
+        "price": 7000
+      },
+      {
+        "name": "Es Milo",
+        "price": 7000
+      },
+      {
+        "name": "Pop Ice Aneka Rasa",
+        "price": 6000
+      }
+    ]
+  },
+  {
+    "id": "v18",
+    "name": "Kedai Mba Mariyam",
+    "area": "Sukapura",
+    "category": "Ayam & Bebek",
+    "phone": "6281809922025",
+    "openTime": "08:00",
+    "closeTime": "22:00",
+    "notes": "Jl. Mangga Dua RT02/RW01 (Telkom University). Delivery sekitar Tel-U +Rp 1.000.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Geprek Tahu Tempe",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Penyet Tahu Tempe",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Serundeng Tahu Tempe",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Goreng Tahu Tempe",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Geprek Mozzarella Tahu Tempe",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Ayam Hot Lava Tahu Tempe",
+        "price": 18000
+      },
+      {
+        "name": "Ayam Geprek (Tanpa Nasi)",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Penyet (Tanpa Nasi)",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Serundeng (Tanpa Nasi)",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Goreng (Tanpa Nasi)",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Geprek Mozzarella (Tanpa Nasi)",
+        "price": 15000
+      },
+      {
+        "name": "Ayam Hot Lava (Tanpa Nasi)",
+        "price": 13000
+      },
+      {
+        "name": "Jus Jeruk / Jambu / Melon",
+        "price": 7000
+      },
+      {
+        "name": "Jus Mangga / Alpukat / Strawberry",
+        "price": 8000
+      },
+      {
+        "name": "Jus Buah Naga",
+        "price": 10000
+      },
+      {
+        "name": "Es Teh Manis",
+        "price": 4000
+      },
+      {
+        "name": "Es Teh Tawar",
+        "price": 3000
+      },
+      {
+        "name": "Air Mineral 600ml",
+        "price": 5000
+      },
+      {
+        "name": "Air Mineral 1500ml",
+        "price": 7000
+      },
+      {
+        "name": "Es Batu",
+        "price": 3000
+      }
+    ]
+  },
+  {
+    "id": "v19",
+    "name": "Warung Azka Seblak",
+    "area": "Sukapura",
+    "category": "Mie & Bakso",
+    "phone": "6282115509413",
+    "openTime": "10:00",
+    "closeTime": "19:00",
+    "notes": "Jl. Manggadua (Dekat Masjid At-Taqwa) RT 02 RW 01. Delivery Order 10.00 - 19.00 WIB. Harga mulai dari 4 item 10k, nambah item nambah 2k. Free sayuran (daun jeruk, kol).",
+    "menus": [
+      {
+        "name": "Seblak Paket 4 Item (Base)",
+        "price": 10000
+      },
+      {
+        "name": "Tambah Toping Seblak (+1 Item: Telur/Ceker/Tulang/Sayap/Kikil/Kerupuk/Makaroni/Mie/Baso/Sosis/Tahu/Otak-otak/Batagor/Cuanky/Pangsit/Dumpling/Fishroll/Odeng/Udang/Crabstick/Jamur/Sayur)",
+        "price": 2000
+      },
+      {
+        "name": "Kwetiau Goreng/Kuah",
+        "price": 10000
+      },
+      {
+        "name": "Mie Tek-tek Goreng/Kuah",
+        "price": 10000
+      },
+      {
+        "name": "Indomie + Telur",
+        "price": 10000
+      },
+      {
+        "name": "Indomie Kuah + Telur + Baso + Sosis",
+        "price": 14000
+      },
+      {
+        "name": "Indomie Goreng + Telur",
+        "price": 10000
+      },
+      {
+        "name": "Indomie Goreng + Telur + Baso + Sosis",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tulang",
+        "price": 12000
+      },
+      {
+        "name": "Baso Mercon",
+        "price": 12000
+      }
+    ]
+  },
+  {
+    "id": "v20",
+    "name": "Warung QTA",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6281221864458",
+    "openTime": "09:00",
+    "closeTime": "20:00",
+    "notes": "Free Ongkir Asrama Telkom. Menerima pembayaran Cash dan QRIS.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Katsu",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Kocak",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Bakar",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Serundeng",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Ayam Crispy",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Goreng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Penyet",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Goreng (Biasa/Telur/Baso/Nugget/Sosis/Ati)",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Goreng + Ayam (Bakar/Goreng/Crispy/Katsu)",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Telur Dadar",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telur Ceplok",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Dadar Kornet",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dadar Sosis",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dadar Bakso",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dadar Ati",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dadar Tahu",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Omelette",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Rames Biasa",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Rames Spesial",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Nugget Ayam",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dendeng Goreng",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Bakso Crispy",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Sosis Crispy",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Tahu Tempe",
+        "price": 10000
+      },
+      {
+        "name": "Indomie Goreng/Kuah",
+        "price": 7000
+      },
+      {
+        "name": "Indomie Bakso/Telor",
+        "price": 12000
+      },
+      {
+        "name": "Aneka Sayur",
+        "price": 5000
+      },
+      {
+        "name": "Kol Goreng",
+        "price": 2000
+      },
+      {
+        "name": "Mendoan",
+        "price": 7000
+      },
+      {
+        "name": "Martabak Telor",
+        "price": 7000
+      },
+      {
+        "name": "Basreng",
+        "price": 7000
+      },
+      {
+        "name": "Sosis Crispy",
+        "price": 7000
+      },
+      {
+        "name": "Bakso Crispy",
+        "price": 7000
+      },
+      {
+        "name": "Minipao Coklat",
+        "price": 7000
+      },
+      {
+        "name": "Pisang Nugget",
+        "price": 7000
+      },
+      {
+        "name": "Tahu Mendoan",
+        "price": 7000
+      },
+      {
+        "name": "Tahu Bakso Goreng",
+        "price": 7000
+      },
+      {
+        "name": "Aneka Snack",
+        "price": 7000
+      },
+      {
+        "name": "Kopi",
+        "price": 4000
+      },
+      {
+        "name": "Susu",
+        "price": 5000
+      },
+      {
+        "name": "Pop Ice",
+        "price": 3000
+      },
+      {
+        "name": "Susu Jahe",
+        "price": 4000
+      },
+      {
+        "name": "Energen",
+        "price": 4000
+      },
+      {
+        "name": "Teh",
+        "price": 4000
+      },
+      {
+        "name": "Nutrisari",
+        "price": 4000
+      },
+      {
+        "name": "Marimas",
+        "price": 2000
+      },
+      {
+        "name": "Kuku Bima Susu",
+        "price": 7000
+      },
+      {
+        "name": "Es Batu",
+        "price": 2000
+      },
+      {
+        "name": "Chocolatos",
+        "price": 6000
+      },
+      {
+        "name": "Bengbeng Drink",
+        "price": 6000
+      },
+      {
+        "name": "Maxtea",
+        "price": 6000
+      },
+      {
+        "name": "Milo",
+        "price": 6000
+      },
+      {
+        "name": "Dancow",
+        "price": 7000
+      },
+      {
+        "name": "Cappuccino",
+        "price": 7000
+      },
+      {
+        "name": "Josu",
+        "price": 7000
+      },
+      {
+        "name": "Air Mineral 600ml",
+        "price": 4000
+      },
+      {
+        "name": "Air Mineral 1500ml",
+        "price": 7000
+      },
+      {
+        "name": "Air Es",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "id": "v21",
+    "name": "Kedai Djuara",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6282123865124",
+    "openTime": "09:00",
+    "closeTime": "22:00",
+    "notes": "Jl. Telekomunikasi No 1 Sukapura, Pujasera Gate 1 Belakang Tugu Telkom University.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Bakar Madu",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Goreng",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Penyet",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Serundeng",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Geprek",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Ayam Kecap",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Spicy Hot Chicken",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Sosis Bakar Madu",
+        "price": 11000
+      },
+      {
+        "name": "Nasi Kulit Ayam",
+        "price": 12000
+      },
+      {
+        "name": "Paket Nasi Kulit Ayam + Telor + Kol / Jukut Goreng",
+        "price": 17000
+      },
+      {
+        "name": "Paket Nasi Kulit Ayam + Nugget + Kol / Jukut Goreng",
+        "price": 17000
+      },
+      {
+        "name": "Paket Nasi Kulit Ayam + Aneka Ayam + Kol / Jukut Goreng",
+        "price": 24000
+      },
+      {
+        "name": "Paket Nasi Aneka Ayam + Tahu Tempe",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok ORI",
+        "price": 9000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Daging Sapi",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Daging Ayam",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Baso",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Sosis",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Nugget",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Kornet",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Keju",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Bumbu Juara",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Kulit Ayam",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Spesial",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Telor Dadar / Ceplok Spesial Komplit",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Sayur Oseng Telor Dadar / Ceplok",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur Oseng Daging Sapi",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Sayur Oseng Daging Ayam",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur Oseng Ati Ampela",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur Oseng Baso",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur Oseng Sosis",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur Oseng Nugget",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur Oseng Spesial",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Sayur Oseng Daging Sapi + Telor Dadar / Ceplok",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Sayur Oseng Daging Ayam + Telor Dadar / Ceplok",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Sayur Oseng Ati Ampela + Telor Dadar / Ceplok",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Sayur Oseng Baso + Telor Dadar / Ceplok",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Sayur Oseng Sosis + Telor Dadar / Ceplok",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Sayur Oseng Nugget + Telor Dadar / Ceplok",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Sayur Oseng Spesial + Telor Dadar / Ceplok",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur ORI",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Daging Sapi",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Daging Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Baso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Nugget",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Kulit Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Keju",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Orak Arik Telor + Sayur Spesial Komplit",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng Kecap ORI",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Goreng Kecap Daging Sapi",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Kecap Daging Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Baso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Nugget",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Keju",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Kulit Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kecap Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Goreng Kecap Spesial Komplit",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng Kecap + Aneka Ayam",
+        "price": 24000
+      },
+      {
+        "name": "Nasi Goreng Putih ORI",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Goreng Putih Daging Sapi",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Putih Daging Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Baso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Nugget",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Keju",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Kulit Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Putih Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Goreng Putih Spesial Komplit",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng Putih + Aneka Ayam",
+        "price": 24000
+      },
+      {
+        "name": "Nasi Goreng Kuning ORI",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Goreng Kuning Daging Sapi",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Kuning Daging Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Baso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Nugget",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Keju",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Kulit Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Kuning Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Goreng Kuning Spesial Komplit",
+        "price": 20000
+      },
+      {
+        "name": "Nasi Goreng Kuning + Aneka Ayam",
+        "price": 24000
+      },
+      {
+        "name": "Nasi Goreng Mawut ORI",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Goreng Mawut Daging Sapi",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Goreng Mawut Daging Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Ati Ampela",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Baso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Nugget",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Keju",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Kulit Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Goreng Mawut Spesial",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Goreng Mawut Spesial Komplit",
+        "price": 20000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng ORI",
+        "price": 13000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng Daging Sapi",
+        "price": 15000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng Daging Ayam",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng Baso",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng Sosis",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng Kornet",
+        "price": 14000
+      },
+      {
+        "name": "Mie Tek-Tek Kuah / Goreng Spesial",
+        "price": 17000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng ORI",
+        "price": 14000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng Daging Sapi",
+        "price": 16000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng Daging Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng Baso",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng Sosis",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Kwetiau Kuah / Goreng Spesial",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Omelet ORI",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Soto",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Kari Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Rendang",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Cabe Ijo",
+        "price": 15000
+      },
+      {
+        "name": "Indomie Kuah / Goreng",
+        "price": 8000
+      },
+      {
+        "name": "Indomie Kuah / Goreng Double",
+        "price": 11000
+      },
+      {
+        "name": "Indomie Kuah / Goreng + Telor",
+        "price": 10000
+      },
+      {
+        "name": "Indomie Kuah / Goreng Double + Telor",
+        "price": 14000
+      },
+      {
+        "name": "Indomie Kuah / Goreng Double + Telor Double",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Sayur SOP ORI",
+        "price": 10000
+      },
+      {
+        "name": "Nasi Sayur SOP Daging Ayam",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur SOP Baso",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur SOP Sosis",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Sayur SOP Spesial (Daging Ayam, Baso, Sosis)",
+        "price": 15000
+      },
+      {
+        "name": "Nasi",
+        "price": 5000
+      },
+      {
+        "name": "Aneka Ayam",
+        "price": 12000
+      },
+      {
+        "name": "Tahu / Tempe",
+        "price": 1500
+      },
+      {
+        "name": "Telor Dadar / Ceplok",
+        "price": 5000
+      },
+      {
+        "name": "Dadar Omelet",
+        "price": 10000
+      },
+      {
+        "name": "Sayur SOP ORI",
+        "price": 6000
+      },
+      {
+        "name": "Sayur SOP Daging Ayam",
+        "price": 8000
+      },
+      {
+        "name": "Sayur SOP Baso",
+        "price": 8000
+      },
+      {
+        "name": "Sayur SOP Sosis",
+        "price": 8000
+      },
+      {
+        "name": "Sayur SOP Spesial",
+        "price": 10000
+      },
+      {
+        "name": "Aneka Jus",
+        "price": 8000
+      },
+      {
+        "name": "Es Kopi Juara",
+        "price": 8000
+      },
+      {
+        "name": "Es Teh",
+        "price": 4000
+      },
+      {
+        "name": "Es Teh Jumbo",
+        "price": 5000
+      },
+      {
+        "name": "Teh Manis Panas",
+        "price": 4000
+      },
+      {
+        "name": "Teh Tawar (Dingin/Panas)",
+        "price": 4000
+      },
+      {
+        "name": "Lemon Tea (Dingin/Panas)",
+        "price": 4000
+      },
+      {
+        "name": "Lemon Tea Jumbo",
+        "price": 5000
+      },
+      {
+        "name": "Es Green Tea",
+        "price": 5000
+      },
+      {
+        "name": "Green Tea",
+        "price": 8000
+      },
+      {
+        "name": "Thai Tea",
+        "price": 8000
+      },
+      {
+        "name": "Aneka Kopi (Dingin/Panas)",
+        "price": 5000
+      },
+      {
+        "name": "Nescafe Ice Americano",
+        "price": 5000
+      },
+      {
+        "name": "Aneka Pop Ice",
+        "price": 5000
+      },
+      {
+        "name": "Aneka Nutrisari",
+        "price": 5000
+      },
+      {
+        "name": "Cappuccino (Dingin/Panas)",
+        "price": 5000
+      },
+      {
+        "name": "ABC Klepon (Dingin/Panas)",
+        "price": 5000
+      },
+      {
+        "name": "Teh Tarik (Dingin/Panas)",
+        "price": 6000
+      },
+      {
+        "name": "Kuku Bima / Extra Joss",
+        "price": 5000
+      },
+      {
+        "name": "Milo (Dingin/Panas)",
+        "price": 6000
+      },
+      {
+        "name": "Milo Susu (Dingin/Panas)",
+        "price": 8000
+      },
+      {
+        "name": "Dancow Putih / Coklat (Dingin/Panas)",
+        "price": 7000
+      },
+      {
+        "name": "Extra Joss / Kuku Bima",
+        "price": 5000
+      },
+      {
+        "name": "Extra Joss / Kuku Bima Susu",
+        "price": 7000
+      },
+      {
+        "name": "Air Mineral",
+        "price": 5000
+      },
+      {
+        "name": "Air Mineral Besar",
+        "price": 7000
+      }
+    ]
+  },
+  {
+    "id": "v22",
+    "name": "Mr. Mangkok Ricebowl",
+    "area": "Permata Buah Batu",
+    "category": "Nasi & Geprek",
+    "phone": "62816222141",
+    "openTime": "00:00",
+    "closeTime": "23:59",
+    "notes": "Permata Buah Batu 1 Ruko R6 (Bojongsoang) & Pinggir Danau FIK Telkom University. WA: 0816222141 / 087722272141.",
+    "menus": [
+      {
+        "name": "Ricebowl Pandemi (Telor Mata Sapi / Dadar)",
+        "price": 15000
+      },
+      {
+        "name": "Ricebowl Chicken Skin",
+        "price": 18000
+      },
+      {
+        "name": "Ricebowl Dori Fish",
+        "price": 20000
+      },
+      {
+        "name": "Ricebowl Ayam Sisit",
+        "price": 22000
+      },
+      {
+        "name": "Ricebowl Ayam Betutu",
+        "price": 20000
+      },
+      {
+        "name": "Ricebowl Empal Gepuk",
+        "price": 25000
+      },
+      {
+        "name": "Ricebowl Paru Balado",
+        "price": 24000
+      },
+      {
+        "name": "Ricebowl Cumi Asam Pedas / Cumi Bakar",
+        "price": 23000
+      },
+      {
+        "name": "Ala Carte Sate Lilit (5 Pcs)",
+        "price": 19000
+      },
+      {
+        "name": "Ala Carte Chicken Skin (1 Pax)",
+        "price": 17000
+      },
+      {
+        "name": "Topping Telor Ceplok",
+        "price": 5000
+      },
+      {
+        "name": "Topping Scramble Egg",
+        "price": 5000
+      },
+      {
+        "name": "Topping Telor Dadar",
+        "price": 5000
+      },
+      {
+        "name": "Topping Chicken Skin",
+        "price": 7000
+      },
+      {
+        "name": "Topping Dadar Rawit",
+        "price": 7000
+      },
+      {
+        "name": "Topping Sate Lilit (2 Pcs)",
+        "price": 7000
+      },
+      {
+        "name": "Extra Sayur Goreng",
+        "price": 5000
+      },
+      {
+        "name": "Extra Sayur Lawar",
+        "price": 7000
+      },
+      {
+        "name": "Extra Nasi Putih",
+        "price": 6000
+      },
+      {
+        "name": "Extra Sambal",
+        "price": 5000
+      },
+      {
+        "name": "Extra Saus",
+        "price": 4000
+      },
+      {
+        "name": "Air Mineral 600ml",
+        "price": 5000
+      },
+      {
+        "name": "Air Mineral 1.5L",
+        "price": 9000
+      },
+      {
+        "name": "Teh Tawar (Ice/Hot)",
+        "price": 4000
+      },
+      {
+        "name": "Teh Manis (Ice/Hot)",
+        "price": 5000
+      },
+      {
+        "name": "Leci Tea (Ice/Hot)",
+        "price": 8000
+      },
+      {
+        "name": "Lemon Tea (Ice/Hot)",
+        "price": 8000
+      },
+      {
+        "name": "Nutrisari Jeruk (Ice/Hot)",
+        "price": 6000
+      },
+      {
+        "name": "Chilled Juice (Kiwi, Mango, Guava)",
+        "price": 7000
+      },
+      {
+        "name": "Free Refill Minuman",
+        "price": 3000
+      },
+      {
+        "name": "Extra Cup Es Batu",
+        "price": 3000
+      }
+    ]
+  },
+  {
+    "id": "v23",
+    "name": "Warung Makan Ayahku",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "6281320985566",
+    "openTime": "08:00",
+    "closeTime": "21:00",
+    "notes": "Warung Makan Ayahku - Telkom. Menerima pesanan Nasi Box, Paket Nasi Liwet, Tumpeng.",
+    "menus": [
+      {
+        "name": "Nasi Ayam Serundeng",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kremes",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Bakar",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Geprek/Cabe Ijo",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Penyet",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Penyet Cabe Ijo",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Rica",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Cabe Ijo",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Katsu Ricis",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Katsu Pedes Gile",
+        "price": 19000
+      },
+      {
+        "name": "Nasi Tongseng Ayam",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Kecap Wijen",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Teriyaki",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Ricis Keju",
+        "price": 19000
+      },
+      {
+        "name": "Nasi Ayam Suwir",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Nugget",
+        "price": 15000
+      },
+      {
+        "name": "Kulit Krispy",
+        "price": 8000
+      },
+      {
+        "name": "Usus Krispy",
+        "price": 8000
+      },
+      {
+        "name": "Sate Usus",
+        "price": 2000
+      },
+      {
+        "name": "Sate Kulit",
+        "price": 2500
+      },
+      {
+        "name": "Sate Ati Ampela",
+        "price": 5000
+      },
+      {
+        "name": "Nasi Ceplok Geprek",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Telur Dadar",
+        "price": 10000
+      },
+      {
+        "name": "Nasi Dadar Sosis/Bakso",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Dadar Kornet",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dadar Keju",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Dadar Special",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Telur Kribo",
+        "price": 12000
+      },
+      {
+        "name": "Nasi Kribo Sosis/Bakso",
+        "price": 14000
+      },
+      {
+        "name": "Nasi Kribo Kornet",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Kribo Special",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Omelet",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Omelet Sosis/Bakso",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Omelet Kornet",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Omelet Special",
+        "price": 19000
+      },
+      {
+        "name": "Nasi Telur Fuyunghai",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Orak-Arik Sayur",
+        "price": 10000
+      },
+      {
+        "name": "Nasi Sop Bakso/Sosis",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Sop Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Soto Ayam",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Capcay Ayam",
+        "price": 16000
+      },
+      {
+        "name": "Nasi Capcay Bakso/Sosis",
+        "price": 13000
+      },
+      {
+        "name": "Nasi Capcay Special",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Cah Kangkung",
+        "price": 10000
+      },
+      {
+        "name": "Nasgor Sosis",
+        "price": 13000
+      },
+      {
+        "name": "Nasgor Bakso",
+        "price": 13000
+      },
+      {
+        "name": "Nasgor Ayam",
+        "price": 15000
+      },
+      {
+        "name": "Nasgor Ati",
+        "price": 15000
+      },
+      {
+        "name": "Nasgor Special",
+        "price": 18000
+      },
+      {
+        "name": "Nasgor PKH",
+        "price": 12000
+      },
+      {
+        "name": "Nasgor Kampung",
+        "price": 12000
+      },
+      {
+        "name": "Nasgor Keju",
+        "price": 13000
+      },
+      {
+        "name": "Nasgor + Katsu Ricis",
+        "price": 22000
+      },
+      {
+        "name": "Nasgor + Ayam Geprek",
+        "price": 22000
+      },
+      {
+        "name": "Nasgor + Telur Kribo",
+        "price": 18000
+      },
+      {
+        "name": "Nasgor Ceplok/Dadar",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Gila",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Mawut",
+        "price": 15000
+      },
+      {
+        "name": "Nasi Mawut Special",
+        "price": 18000
+      },
+      {
+        "name": "Mie Goreng",
+        "price": 13000
+      },
+      {
+        "name": "Mie Tektek Bakso",
+        "price": 13000
+      },
+      {
+        "name": "Mie Tektek Sosis",
+        "price": 13000
+      },
+      {
+        "name": "Mie Tektek Ayam",
+        "price": 16000
+      },
+      {
+        "name": "Mie Tektek Special",
+        "price": 18000
+      },
+      {
+        "name": "Mie Dokdok Sosis",
+        "price": 13000
+      },
+      {
+        "name": "Mie Dokdok Bakso",
+        "price": 13000
+      },
+      {
+        "name": "Mie Dokdok Special",
+        "price": 15000
+      },
+      {
+        "name": "Bihun Goreng",
+        "price": 13000
+      },
+      {
+        "name": "Bihun Goreng Spc",
+        "price": 18000
+      },
+      {
+        "name": "Kwetiau Goreng",
+        "price": 13000
+      },
+      {
+        "name": "Kwetiau Goreng Spc",
+        "price": 18000
+      },
+      {
+        "name": "Indomie",
+        "price": 7000
+      },
+      {
+        "name": "Indomie Telur",
+        "price": 10000
+      },
+      {
+        "name": "Indomie Telor Kornet",
+        "price": 15000
+      },
+      {
+        "name": "Indomie Bakso",
+        "price": 10000
+      },
+      {
+        "name": "Indomie Bakso Telor",
+        "price": 13000
+      },
+      {
+        "name": "Indomie Special",
+        "price": 17000
+      },
+      {
+        "name": "Indomie Double",
+        "price": 13000
+      },
+      {
+        "name": "Indomie Special Double",
+        "price": 23000
+      },
+      {
+        "name": "Indomie Nasi",
+        "price": 12000
+      },
+      {
+        "name": "Indomie Katsu",
+        "price": 18000
+      },
+      {
+        "name": "Indomie + Ayam Geprek",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Sarden",
+        "price": 18000
+      },
+      {
+        "name": "Nasi Tutug Oncom",
+        "price": 7000
+      },
+      {
+        "name": "Nasi Daun Jeruk",
+        "price": 7000
+      },
+      {
+        "name": "Tahu",
+        "price": 2000
+      },
+      {
+        "name": "Tempe",
+        "price": 2000
+      },
+      {
+        "name": "Tambahan Keju",
+        "price": 3000
+      },
+      {
+        "name": "Kentang Goreng",
+        "price": 8000
+      },
+      {
+        "name": "Kentang Katsu",
+        "price": 19000
+      },
+      {
+        "name": "Sosis Bakar",
+        "price": 6000
+      },
+      {
+        "name": "Spaghetti Creamy Mushroom",
+        "price": 19000
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "price": 17000
+      },
+      {
+        "name": "Spaghetti Carbonara",
+        "price": 17000
+      },
+      {
+        "name": "Spaghetti Katsu",
+        "price": 25000
+      },
+      {
+        "name": "Nutrisari",
+        "price": 5000
+      },
+      {
+        "name": "Extra Joss",
+        "price": 4000
+      },
+      {
+        "name": "Kuku Bima",
+        "price": 4000
+      },
+      {
+        "name": "Josu",
+        "price": 7000
+      },
+      {
+        "name": "Pop Ice",
+        "price": 5000
+      },
+      {
+        "name": "Aneka Kopi",
+        "price": 5000
+      },
+      {
+        "name": "Es Teh Manis",
+        "price": 4000
+      },
+      {
+        "name": "Es Jeruk",
+        "price": 6000
+      },
+      {
+        "name": "Pudding",
+        "price": 6000
+      },
+      {
+        "name": "Pisang Keju",
+        "price": 10000
+      },
+      {
+        "name": "Brownies",
+        "price": 9000
+      }
+    ]
+  },
+  {
+    "id": "v24",
+    "name": "Spicy Yakiniku",
+    "area": "Sukapura",
+    "category": "Nasi & Geprek",
+    "phone": "628112076688",
+    "openTime": "09:00",
+    "closeTime": "22:00",
+    "notes": "Katalog Bento & Rice Bowl.",
+    "menus": [
+      {
+        "name": "Orange Juice",
+        "price": 9000
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 12000
+      },
+      {
+        "name": "Korean Fried Chicken",
+        "price": 24000
+      },
+      {
+        "name": "Tomato Chicken Bento",
+        "price": 26000
+      },
+      {
+        "name": "Beef Yakiniku",
+        "price": 28000
+      },
+      {
+        "name": "Bento Katsu",
+        "price": 24000
+      },
+      {
+        "name": "Crispy Chicken Bento",
+        "price": 24000
+      },
+      {
+        "name": "Spesial Prawn Bento",
+        "price": 31000
+      },
+      {
+        "name": "Paket Kenyang Beef",
+        "price": 31000
+      },
+      {
+        "name": "Paket Kenyang Tempura",
+        "price": 31000
+      },
+      {
+        "name": "Tomato Chicken Bowl",
+        "price": 20000
+      },
+      {
+        "name": "Karaage Rice Bowl",
+        "price": 19000
+      },
+      {
+        "name": "Yakiniku Rice Bowl",
+        "price": 22000
+      },
+      {
+        "name": "Chicken Rice Bowl",
+        "price": 19000
+      }
+    ]
+  },
+  {
+    "id": "v25",
+    "name": "Ayam Penyet & Ayam Geprek Telkom",
+    "area": "Sukapura",
+    "category": "Ayam & Bebek",
+    "phone": "6283876502116",
+    "openTime": "11:00",
+    "closeTime": "21:00",
+    "notes": "Gang Slamet 1 RT 01 RW 08. Free Ongkir Area Sekitar Telkom. Pilihan sambal: merah, ijo, matah, geprek.",
+    "menus": [
+      {
+        "name": "Ayam Penyet Komplit",
+        "price": 25000
+      },
+      {
+        "name": "Ayam Penyet + Nasi",
+        "price": 19000
+      },
+      {
+        "name": "Ayam Penyet",
+        "price": 15000
+      },
+      {
+        "name": "Ayam Goreng Kremes + Nasi",
+        "price": 19000
+      },
+      {
+        "name": "Ayam Kremes",
+        "price": 15000
+      },
+      {
+        "name": "Ayam Serundeng + Nasi",
+        "price": 19000
+      },
+      {
+        "name": "Ayam Serundeng",
+        "price": 15000
+      },
+      {
+        "name": "Ayam Bakar + Nasi",
+        "price": 19000
+      },
+      {
+        "name": "Ayam Bakar",
+        "price": 15000
+      },
+      {
+        "name": "Ayam Geprek + Nasi",
+        "price": 17000
+      },
+      {
+        "name": "Ayam Geprek",
+        "price": 12000
+      },
+      {
+        "name": "Ayam Bawang + Nasi",
+        "price": 15000
+      },
+      {
+        "name": "Ayam Bawang",
+        "price": 10000
+      },
+      {
+        "name": "Mie Goreng Double",
+        "price": 15000
+      },
+      {
+        "name": "Mie Goreng",
+        "price": 8000
+      },
+      {
+        "name": "Mie Rebus Double",
+        "price": 12000
+      },
+      {
+        "name": "Mie Rebus",
+        "price": 6000
+      },
+      {
+        "name": "Mie Goreng + Telur",
+        "price": 11000
+      },
+      {
+        "name": "Mie Rebus + Telur",
+        "price": 9000
+      },
+      {
+        "name": "Spaghetti Wow",
+        "price": 7000
+      },
+      {
+        "name": "Spaghetti + Telur",
+        "price": 10000
+      },
+      {
+        "name": "Nasi Goreng Ayam Geprek",
+        "price": 19000
+      },
+      {
+        "name": "Nasgor Biasa",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Goreng Ati Ampela",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Daun Jeruk Ayam Bawang",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Katsu",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Teriyaki",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Suwir",
+        "price": 17000
+      },
+      {
+        "name": "Nasi Ayam Drakor",
+        "price": 17000
+      },
+      {
+        "name": "Sate Ati Ampela",
+        "price": 4000
+      },
+      {
+        "name": "Sate Usus",
+        "price": 2000
+      },
+      {
+        "name": "Tahu",
+        "price": 1000
+      },
+      {
+        "name": "Tempe",
+        "price": 1000
+      },
+      {
+        "name": "Telur Dadar",
+        "price": 4000
+      },
+      {
+        "name": "Telur Rebus",
+        "price": 4000
+      },
+      {
+        "name": "Telur Ceplok",
+        "price": 4000
+      },
+      {
+        "name": "Telur Toping",
+        "price": 6000
+      },
+      {
+        "name": "Jamur Krispy",
+        "price": 6000
+      },
+      {
+        "name": "Kulit Ayam Krispy",
+        "price": 6000
+      },
+      {
+        "name": "Kentang Goreng",
+        "price": 6000
+      },
+      {
+        "name": "Basreng",
+        "price": 6000
+      },
+      {
+        "name": "Sosis 3 pcs",
+        "price": 6000
+      },
+      {
+        "name": "Teh Manis",
+        "price": 6000
+      },
+      {
+        "name": "Teh Tawar",
+        "price": 5000
+      },
+      {
+        "name": "Nutrisari",
+        "price": 6000
+      },
+      {
+        "name": "Susu",
+        "price": 6000
+      },
+      {
+        "name": "Josu",
+        "price": 6000
+      },
+      {
+        "name": "Kuku Bima Susu",
+        "price": 6000
+      },
+      {
+        "name": "Milo",
+        "price": 6000
+      },
+      {
+        "name": "Teh Tarik",
+        "price": 6000
+      },
+      {
+        "name": "Good Day Freeze",
+        "price": 6000
+      }
+    ]
+  }
+]
