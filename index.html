@@ -202,4 +202,1302 @@
       }
     }
 
-    @media (min-
+    @media (min-width: 1024px) {
+      .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+      min-width: 0;
+      overflow-wrap: anywhere;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #d6ccc0;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .card-top > div {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .vendor-name {
+      margin: 4px 0 0;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+
+    .meta-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--surface-alt);
+      color: var(--muted);
+    }
+
+    .tag-new {
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .status-pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .status-open {
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .status-closed {
+      background: var(--amber-soft);
+      color: var(--amber);
+    }
+
+    .hours {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .notes {
+      margin: 8px 0 0;
+      font-size: 13px;
+      color: #44403c;
+      background: var(--surface-alt);
+      padding: 10px 12px;
+      border-radius: 12px;
+      overflow-wrap: anywhere;
+    }
+
+    .menu-preview {
+      border-top: 1px dashed var(--border);
+      padding-top: 10px;
+    }
+
+    .menu-preview-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 8px;
+      font-size: 13px;
+      padding: 3px 0;
+    }
+
+    .menu-item-name {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .menu-price {
+      font-weight: 700;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    button,
+    a.btn {
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 11px;
+      padding: 10px 12px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      border: 1px solid transparent;
+      transition: background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      flex: 1;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-secondary {
+      background: var(--surface-alt);
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: #e9e3d8;
+    }
+
+    .btn-success {
+      background: var(--green);
+      color: #ffffff;
+    }
+
+    .btn-success:hover {
+      background: #166534;
+    }
+
+    .btn-danger {
+      background: #fef2f2;
+      color: #b91c1c;
+      border-color: #fecaca;
+    }
+
+    .btn-danger:hover {
+      background: #fee2e2;
+    }
+
+    .empty-state {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 36px 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .error-box {
+      background: #fef2f2;
+      border: 1px solid #fecaca;
+      color: #991b1b;
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+
+    .notice-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1e3a8a;
+      border-radius: 14px;
+      padding: 12px 14px;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+
+    .admin-panel {
+      display: none;
+      background: var(--surface);
+      border: 2px solid var(--accent);
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+
+    .admin-panel.open {
+      display: block;
+    }
+
+    .admin-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 16px;
+    }
+
+    .admin-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .tab-btn.active {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .form-grid-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .form-grid-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    label.field-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    .draft-menu-list {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .draft-menu-chip {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 7px 11px;
+      font-size: 13px;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(28, 25, 23, 0.55);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 50;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--surface);
+      border-radius: 20px;
+      max-width: 620px;
+      width: 100%;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+
+    .modal-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .modal-title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .modal-body {
+      padding: 16px 20px;
+      overflow-y: auto;
+    }
+
+    .modal-menu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 9px 0;
+      border-bottom: 1px solid #f1ece4;
+      font-size: 14px;
+    }
+
+    .modal-footer {
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg);
+    }
+
+    footer {
+      margin-top: 36px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="hero-top">
+        <div class="badge">MealTelu • Sekitar Telkom University</div>
+        <div class="hero-actions">
+          <button id="toggleAdminBtn" type="button" class="btn-secondary">
+            🔒 Dashboard Admin Resto
+          </button>
+          <button id="lockAdminBtn" type="button" class="btn-secondary" style="display: none;">
+            Kunci Admin
+          </button>
+        </div>
+      </div>
+      <h1>MealTelU</h1>
+      <p class="subtitle">
+        Cari warung, cek jam buka, lihat daftar menu &amp; harga, lalu langsung chat WhatsApp pemesanan tanpa ribet.
+      </p>
+      <div class="stats" id="statsBar">
+        <span class="stat-pill">Memuat data...</span>
+      </div>
+    </header>
+
+    <section id="adminPanel" class="admin-panel" aria-label="Dashboard Admin Resto">
+      <div class="admin-header">
+        <div>
+          <h2 style="margin: 0; font-size: 20px; font-weight: 800;">Dashboard Admin MealTelu</h2>
+          <div id="adminDraftStatus" style="font-size: 12px; color: var(--muted); font-weight: 600;">
+            0 resto baru tersimpan lokal
+          </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <button id="downloadJsonBtn" type="button" class="btn-success">
+            ⬇️ Download JSON Baru
+          </button>
+          <button id="copyJsonBtn" type="button" class="btn-secondary">
+            📋 Salin JSON
+          </button>
+          <button id="clearDraftsBtn" type="button" class="btn-danger">
+            🗑️ Hapus Draft Lokal
+          </button>
+        </div>
+      </div>
+
+      <div class="notice-box">
+        <strong>Alur update ke link publik:</strong> Tambahkan resto atau menu baru di bawah ini—perubahan langsung muncul di halaman ini (tersimpan di browser). Jika ingin tampil di semua perangkat lewat link GitHub Pages, klik <strong>Download JSON Baru</strong> lalu upload/timpa file <code>mealtelu-v7-v25-2026-11-25-clean-v2.json</code> di repository GitHub.
+      </div>
+
+      <div class="admin-tabs">
+        <button type="button" class="btn-secondary tab-btn active" data-tab="addVendorTab">
+          + Tambah Resto Baru
+        </button>
+        <button type="button" class="btn-secondary tab-btn" data-tab="addMenuTab">
+          + Tambah Menu ke Resto
+        </button>
+        <button type="button" class="btn-secondary tab-btn" data-tab="manageDraftsTab">
+          Kelola Resto Tambahan
+        </button>
+      </div>
+
+      <form id="addVendorForm" class="admin-tab-content">
+        <div class="form-grid form-grid-3" style="margin-bottom: 12px;">
+          <div>
+            <label class="field-label" for="vendorIdInput">ID Resto</label>
+            <input id="vendorIdInput" type="text" required />
+          </div>
+          <div>
+            <label class="field-label" for="vendorNameInput">Nama Resto *</label>
+            <input id="vendorNameInput" type="text" placeholder="Contoh: Warung Teh Sari" required />
+          </div>
+          <div>
+            <label class="field-label" for="vendorPhoneInput">Nomor WA (format 628...) *</label>
+            <input id="vendorPhoneInput" type="text" placeholder="6281234567890" required />
+          </div>
+        </div>
+
+        <div class="form-grid form-grid-2" style="margin-bottom: 12px;">
+          <div>
+            <label class="field-label" for="vendorAreaInput">Area *</label>
+            <input id="vendorAreaInput" type="text" list="areaSuggestions" placeholder="Sukapura / Sukabirus / Panghegar / Permata Buah Batu" required />
+            <datalist id="areaSuggestions"></datalist>
+          </div>
+          <div>
+            <label class="field-label" for="vendorCategoryInput">Kategori *</label>
+            <input id="vendorCategoryInput" type="text" list="categorySuggestions" placeholder="Nasi & Geprek / Mie & Bakso / Ayam & Bebek / Camilan & Martabak" required />
+            <datalist id="categorySuggestions"></datalist>
+          </div>
+        </div>
+
+        <div class="form-grid form-grid-2" style="margin-bottom: 12px;">
+          <div>
+            <label class="field-label" for="vendorOpenInput">Jam Buka (WIB) *</label>
+            <input id="vendorOpenInput" type="text" value="09:00" placeholder="09:00" required />
+          </div>
+          <div>
+            <label class="field-label" for="vendorCloseInput">Jam Tutup (WIB) *</label>
+            <input id="vendorCloseInput" type="text" value="21:00" placeholder="21:00" required />
+          </div>
+        </div>
+
+        <div style="margin-bottom: 14px;">
+          <label class="field-label" for="vendorNotesInput">Catatan Delivery / Promo / Ongkir</label>
+          <textarea id="vendorNotesInput" placeholder="Contoh: Minimal order 15rb, ongkir area Sukapura 3rb, buka tiap hari."></textarea>
+        </div>
+
+        <div style="background: var(--surface-alt); border: 1px solid var(--border); border-radius: 14px; padding: 14px; margin-bottom: 16px;">
+          <div style="font-size: 13px; font-weight: 700; margin-bottom: 10px;">Daftar Menu Resto Baru</div>
+          <div class="form-grid form-grid-2" style="gap: 8px;">
+            <input id="draftMenuNameInput" type="text" placeholder="Nama menu (mis. Nasi Ayam Geprek)" />
+            <div style="display: flex; gap: 8px;">
+              <input id="draftMenuPriceInput" type="number" min="0" step="500" placeholder="Harga (mis. 15000)" />
+              <button id="addDraftMenuBtn" type="button" class="btn-secondary" style="white-space: nowrap;">
+                + Menu
+              </button>
+            </div>
+          </div>
+          <div id="draftMenuList" class="draft-menu-list"></div>
+        </div>
+
+        <button type="submit" class="btn-primary" style="flex: 0 0 auto; padding: 11px 18px;">
+          Simpan Resto Baru
+        </button>
+      </form>
+
+      <form id="addMenuToVendorForm" class="admin-tab-content" style="display: none;">
+        <div class="form-grid form-grid-3" style="margin-bottom: 14px;">
+          <div>
+            <label class="field-label" for="targetVendorSelect">Pilih Resto *</label>
+            <select id="targetVendorSelect" required></select>
+          </div>
+          <div>
+            <label class="field-label" for="newMenuNameInput">Nama Menu *</label>
+            <input id="newMenuNameInput" type="text" placeholder="Contoh: Es Teh Manis Jumbo" required />
+          </div>
+          <div>
+            <label class="field-label" for="newMenuPriceInput">Harga (Rp) *</label>
+            <input id="newMenuPriceInput" type="number" min="0" step="500" placeholder="5000" required />
+          </div>
+        </div>
+        <button type="submit" class="btn-primary" style="flex: 0 0 auto; padding: 11px 18px;">
+          Tambahkan Menu ke Resto
+        </button>
+      </form>
+
+      <div id="manageDraftsTab" class="admin-tab-content" style="display: none;">
+        <div id="customVendorsContainer"></div>
+      </div>
+    </section>
+
+    <div id="errorBox" class="error-box" style="display: none;"></div>
+
+    <section class="controls" aria-label="Filter warung dan menu">
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Cari nama warung, menu (mis. geprek, pancong, mie), atau area..."
+        autocomplete="off"
+      />
+      <select id="areaSelect" aria-label="Filter area">
+        <option value="">Semua Area</option>
+      </select>
+      <select id="categorySelect" aria-label="Filter kategori">
+        <option value="">Semua Kategori</option>
+      </select>
+      <label class="toggle-open">
+        <input id="openOnlyCheckbox" type="checkbox" />
+        Buka sekarang
+      </label>
+    </section>
+
+    <div class="results-meta">
+      <span id="resultCount">Menampilkan warung...</span>
+      <button id="resetBtn" type="button" class="btn-secondary" style="padding: 6px 12px; font-size: 12px;">
+        Reset Filter
+      </button>
+    </div>
+
+    <main id="vendorGrid" class="grid"></main>
+
+    <footer>
+      Data bersumber dari <code>mealtelu-v7-v25-2026-11-25-clean-v2.json</code> &amp; draft lokal browser. Harga &amp; jam operasional dapat berubah sewaktu-waktu.
+    </footer>
+  </div>
+
+  <!-- Modal Password Dashboard Admin -->
+  <div id="adminAuthModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="adminAuthTitle">
+    <div class="modal" style="max-width: 420px;">
+      <div class="modal-header">
+        <div>
+          <h2 id="adminAuthTitle" class="modal-title">Akses Dashboard Admin</h2>
+          <div class="hours">Masukkan password admin untuk membuka dashboard</div>
+        </div>
+        <button id="closeAuthModalBtn" type="button" class="btn-secondary" aria-label="Tutup modal password">✕</button>
+      </div>
+      <form id="adminAuthForm" class="modal-body">
+        <label class="field-label" for="adminPasswordInput">Password Admin</label>
+        <input id="adminPasswordInput" type="password" placeholder="Masukkan password" autocomplete="current-password" required />
+        <div id="adminAuthError" style="display: none; margin-top: 8px; font-size: 12px; font-weight: 700; color: #b91c1c;">
+          Password salah. Coba lagi.
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px;">
+          <button id="cancelAuthBtn" type="button" class="btn-secondary">Batal</button>
+          <button type="submit" class="btn-primary" style="flex: 0 0 auto;">Masuk Dashboard</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal Menu Warung -->
+  <div id="menuModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalVendorName">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <h2 id="modalVendorName" class="modal-title">Nama Warung</h2>
+          <div id="modalVendorMeta" class="hours"></div>
+        </div>
+        <button id="closeModalBtn" type="button" class="btn-secondary" aria-label="Tutup modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalVendorNotes" class="notes" style="margin-top: 0; margin-bottom: 14px;"></p>
+        <div id="modalMenuList"></div>
+      </div>
+      <div class="modal-footer">
+        <span id="modalMenuCount" style="font-size: 12px; color: var(--muted); font-weight: 600;"></span>
+        <a id="modalWaLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="flex: 0 0 auto;">
+          Chat WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = "./mealtelu-v7-v25-2026-11-25-clean-v2.json";
+    const STORAGE_KEY = "mealtelu_custom_vendors_v1";
+    const MENU_PATCH_KEY = "mealtelu_added_menus_v1";
+    const ADMIN_PASS = "2626";
+
+    const state = {
+      baseVendors: [],
+      customVendors: [],
+      addedMenusByVendorId: {},
+      vendors: [],
+      draftMenus: [],
+      adminUnlocked: false,
+      search: "",
+      area: "",
+      category: "",
+      openOnly: false
+    };
+
+    const els = {
+      toggleAdminBtn: document.getElementById("toggleAdminBtn"),
+      lockAdminBtn: document.getElementById("lockAdminBtn"),
+      adminPanel: document.getElementById("adminPanel"),
+      adminAuthModal: document.getElementById("adminAuthModal"),
+      closeAuthModalBtn: document.getElementById("closeAuthModalBtn"),
+      cancelAuthBtn: document.getElementById("cancelAuthBtn"),
+      adminAuthForm: document.getElementById("adminAuthForm"),
+      adminPasswordInput: document.getElementById("adminPasswordInput"),
+      adminAuthError: document.getElementById("adminAuthError"),
+      adminDraftStatus: document.getElementById("adminDraftStatus"),
+      downloadJsonBtn: document.getElementById("downloadJsonBtn"),
+      copyJsonBtn: document.getElementById("copyJsonBtn"),
+      clearDraftsBtn: document.getElementById("clearDraftsBtn"),
+      addVendorForm: document.getElementById("addVendorForm"),
+      vendorIdInput: document.getElementById("vendorIdInput"),
+      vendorNameInput: document.getElementById("vendorNameInput"),
+      vendorPhoneInput: document.getElementById("vendorPhoneInput"),
+      vendorAreaInput: document.getElementById("vendorAreaInput"),
+      vendorCategoryInput: document.getElementById("vendorCategoryInput"),
+      vendorOpenInput: document.getElementById("vendorOpenInput"),
+      vendorCloseInput: document.getElementById("vendorCloseInput"),
+      vendorNotesInput: document.getElementById("vendorNotesInput"),
+      draftMenuNameInput: document.getElementById("draftMenuNameInput"),
+      draftMenuPriceInput: document.getElementById("draftMenuPriceInput"),
+      addDraftMenuBtn: document.getElementById("addDraftMenuBtn"),
+      draftMenuList: document.getElementById("draftMenuList"),
+      areaSuggestions: document.getElementById("areaSuggestions"),
+      categorySuggestions: document.getElementById("categorySuggestions"),
+      addMenuToVendorForm: document.getElementById("addMenuToVendorForm"),
+      targetVendorSelect: document.getElementById("targetVendorSelect"),
+      newMenuNameInput: document.getElementById("newMenuNameInput"),
+      newMenuPriceInput: document.getElementById("newMenuPriceInput"),
+      customVendorsContainer: document.getElementById("customVendorsContainer"),
+      statsBar: document.getElementById("statsBar"),
+      errorBox: document.getElementById("errorBox"),
+      searchInput: document.getElementById("searchInput"),
+      areaSelect: document.getElementById("areaSelect"),
+      categorySelect: document.getElementById("categorySelect"),
+      openOnlyCheckbox: document.getElementById("openOnlyCheckbox"),
+      resetBtn: document.getElementById("resetBtn"),
+      resultCount: document.getElementById("resultCount"),
+      vendorGrid: document.getElementById("vendorGrid"),
+      menuModal: document.getElementById("menuModal"),
+      closeModalBtn: document.getElementById("closeModalBtn"),
+      modalVendorName: document.getElementById("modalVendorName"),
+      modalVendorMeta: document.getElementById("modalVendorMeta"),
+      modalVendorNotes: document.getElementById("modalVendorNotes"),
+      modalMenuList: document.getElementById("modalMenuList"),
+      modalMenuCount: document.getElementById("modalMenuCount"),
+      modalWaLink: document.getElementById("modalWaLink")
+    };
+
+    function formatRupiah(amount) {
+      return new Intl.NumberFormat("id-ID", {
+        style: "currency",
+        currency: "IDR",
+        maximumFractionDigits: 0
+      }).format(Number(amount) || 0);
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function parseMinutes(hhmm) {
+      if (!hhmm || !hhmm.includes(":")) return null;
+      const [h, m] = hhmm.split(":").map(Number);
+      if (Number.isNaN(h) || Number.isNaN(m)) return null;
+      return h * 60 + m;
+    }
+
+    function isVendorOpenNow(vendor) {
+      const openMin = parseMinutes(vendor.openTime);
+      const closeMin = parseMinutes(vendor.closeTime);
+      if (openMin === null || closeMin === null) return true;
+
+      const now = new Date();
+      const curMin = now.getHours() * 60 + now.getMinutes();
+
+      if (openMin === 0 && closeMin >= 1439) return true;
+      if (closeMin >= openMin) {
+        return curMin >= openMin && curMin <= closeMin;
+      }
+      return curMin >= openMin || curMin <= closeMin;
+    }
+
+    function buildWaUrl(vendor) {
+      const cleanPhone = String(vendor.phone || "").replace(/[^0-9]/g, "");
+      const text = "halo saya mau pesan";
+      return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(text)}`;
+    }
+
+    function loadLocalEdits() {
+      try {
+        const rawVendors = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+        state.customVendors = Array.isArray(rawVendors) ? rawVendors : [];
+      } catch {
+        state.customVendors = [];
+      }
+
+      try {
+        const rawPatches = JSON.parse(localStorage.getItem(MENU_PATCH_KEY) || "{}");
+        state.addedMenusByVendorId = rawPatches && typeof rawPatches === "object" ? rawPatches : {};
+      } catch {
+        state.addedMenusByVendorId = {};
+      }
+    }
+
+    function saveLocalEdits() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state.customVendors));
+      localStorage.setItem(MENU_PATCH_KEY, JSON.stringify(state.addedMenusByVendorId));
+    }
+
+    function getMergedVendors() {
+      const combined = [...state.baseVendors, ...state.customVendors];
+      return combined.map((v) => {
+        const extraMenus = Array.isArray(state.addedMenusByVendorId[v.id])
+          ? state.addedMenusByVendorId[v.id]
+          : [];
+        const baseMenus = Array.isArray(v.menus) ? v.menus : [];
+        return {
+          ...v,
+          isCustom: state.customVendors.some((cv) => cv.id === v.id),
+          menus: [...baseMenus, ...extraMenus]
+        };
+      });
+    }
+
+    function suggestNextVendorId() {
+      const nums = state.vendors
+        .map((v) => {
+          const m = String(v.id || "").match(/^v(\d+)$/i);
+          return m ? Number(m[1]) : 0;
+        })
+        .filter((n) => n > 0);
+      const nextNum = (nums.length ? Math.max(...nums) : 25) + 1;
+      return `v${nextNum}`;
+    }
+
+    function syncAdminButtons() {
+      if (state.adminUnlocked) {
+        els.toggleAdminBtn.textContent = els.adminPanel.classList.contains("open")
+          ? "🔓 Sembunyikan Dashboard Admin"
+          : "🔓 Buka Dashboard Admin Resto";
+        els.lockAdminBtn.style.display = "inline-flex";
+      } else {
+        els.toggleAdminBtn.textContent = "🔒 Dashboard Admin Resto";
+        els.lockAdminBtn.style.display = "none";
+        els.adminPanel.classList.remove("open");
+      }
+    }
+
+    function openAuthModal() {
+      els.adminAuthError.style.display = "none";
+      els.adminPasswordInput.value = "";
+      els.adminAuthModal.classList.add("open");
+      setTimeout(() => els.adminPasswordInput.focus(), 20);
+    }
+
+    function closeAuthModal() {
+      els.adminAuthModal.classList.remove("open");
+      els.adminAuthError.style.display = "none";
+      els.adminPasswordInput.value = "";
+    }
+
+    function syncFiltersAndOptions() {
+      const selectedArea = els.areaSelect.value || state.area;
+      const selectedCategory = els.categorySelect.value || state.category;
+
+      const areas = [...new Set(state.vendors.map((v) => v.area).filter(Boolean))].sort((a, b) =>
+        a.localeCompare(b, "id")
+      );
+      const categories = [...new Set(state.vendors.map((v) => v.category).filter(Boolean))].sort((a, b) =>
+        a.localeCompare(b, "id")
+      );
+
+      els.areaSelect.innerHTML = `<option value="">Semua Area</option>`;
+      els.areaSuggestions.innerHTML = "";
+      for (const area of areas) {
+        const opt = document.createElement("option");
+        opt.value = area;
+        opt.textContent = area;
+        els.areaSelect.appendChild(opt);
+
+        const dl = document.createElement("option");
+        dl.value = area;
+        els.areaSuggestions.appendChild(dl);
+      }
+      els.areaSelect.value = areas.includes(selectedArea) ? selectedArea : "";
+      state.area = els.areaSelect.value;
+
+      els.categorySelect.innerHTML = `<option value="">Semua Kategori</option>`;
+      els.categorySuggestions.innerHTML = "";
+      for (const cat of categories) {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        els.categorySelect.appendChild(opt);
+
+        const dl = document.createElement("option");
+        dl.value = cat;
+        els.categorySuggestions.appendChild(dl);
+      }
+      els.categorySelect.value = categories.includes(selectedCategory) ? selectedCategory : "";
+      state.category = els.categorySelect.value;
+
+      els.targetVendorSelect.innerHTML = state.vendors
+        .map((v) => `<option value="${escapeHtml(v.id)}">${escapeHtml(v.id)} — ${escapeHtml(v.name)}</option>`)
+        .join("");
+
+      if (!els.vendorIdInput.value) {
+        els.vendorIdInput.value = suggestNextVendorId();
+      }
+    }
+
+    function renderAdminStatus() {
+      const extraMenuCount = Object.values(state.addedMenusByVendorId).reduce(
+        (acc, arr) => acc + (Array.isArray(arr) ? arr.length : 0),
+        0
+      );
+      els.adminDraftStatus.textContent = `${state.customVendors.length} resto baru • ${extraMenuCount} menu tambahan tersimpan lokal`;
+
+      if (state.customVendors.length === 0) {
+        els.customVendorsContainer.innerHTML = `<p style="color: var(--muted); font-size: 13px; margin: 0;">Belum ada resto baru yang ditambahkan secara lokal.</p>`;
+      } else {
+        els.customVendorsContainer.innerHTML = state.customVendors
+          .map(
+            (v) => `
+            <div class="draft-menu-chip" style="margin-bottom: 8px;">
+              <div>
+                <strong>${escapeHtml(v.id)} — ${escapeHtml(v.name)}</strong>
+                <div style="font-size: 12px; color: var(--muted);">${escapeHtml(v.area)} • ${escapeHtml(v.category)} • ${(v.menus || []).length} menu</div>
+              </div>
+              <button type="button" class="btn-danger" data-delete-custom="${escapeHtml(v.id)}" style="padding: 6px 10px; font-size: 12px;">
+                Hapus
+              </button>
+            </div>
+          `
+          )
+          .join("");
+
+        els.customVendorsContainer.querySelectorAll("[data-delete-custom]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const targetId = btn.dataset.deleteCustom;
+            state.customVendors = state.customVendors.filter((item) => item.id !== targetId);
+            delete state.addedMenusByVendorId[targetId];
+            saveLocalEdits();
+            refreshAll();
+          });
+        });
+      }
+    }
+
+    function renderDraftMenus() {
+      if (state.draftMenus.length === 0) {
+        els.draftMenuList.innerHTML = `<div style="font-size: 12px; color: var(--muted);">Belum ada item menu di draft resto baru ini.</div>`;
+        return;
+      }
+
+      els.draftMenuList.innerHTML = state.draftMenus
+        .map(
+          (m, idx) => `
+          <div class="draft-menu-chip">
+            <span>${escapeHtml(m.name)} — <strong>${formatRupiah(m.price)}</strong></span>
+            <button type="button" class="btn-danger" data-remove-draft-menu="${idx}" style="padding: 4px 9px; font-size: 11px;">
+              ✕
+            </button>
+          </div>
+        `
+        )
+        .join("");
+
+      els.draftMenuList.querySelectorAll("[data-remove-draft-menu]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const index = Number(btn.dataset.removeDraftMenu);
+          state.draftMenus.splice(index, 1);
+          renderDraftMenus();
+        });
+      });
+    }
+
+    function renderStats() {
+      const totalMenus = state.vendors.reduce((sum, v) => sum + (Array.isArray(v.menus) ? v.menus.length : 0), 0);
+      const openCount = state.vendors.filter(isVendorOpenNow).length;
+      els.statsBar.innerHTML = `
+        <span class="stat-pill">${state.vendors.length} Warung</span>
+        <span class="stat-pill">${totalMenus} Menu</span>
+        <span class="stat-pill">${openCount} Buka Sekarang</span>
+      `;
+    }
+
+    function getFilteredVendors() {
+      const q = state.search.trim().toLowerCase();
+      return state.vendors.filter((v) => {
+        if (state.area && v.area !== state.area) return false;
+        if (state.category && v.category !== state.category) return false;
+        if (state.openOnly && !isVendorOpenNow(v)) return false;
+
+        if (!q) return true;
+
+        const inVendor =
+          (v.name || "").toLowerCase().includes(q) ||
+          (v.area || "").toLowerCase().includes(q) ||
+          (v.category || "").toLowerCase().includes(q) ||
+          (v.notes || "").toLowerCase().includes(q);
+
+        const inMenus =
+          Array.isArray(v.menus) &&
+          v.menus.some((m) => (m.name || "").toLowerCase().includes(q));
+
+        return inVendor || inMenus;
+      });
+    }
+
+    function renderVendors() {
+      const list = getFilteredVendors();
+      els.resultCount.textContent = `Menampilkan ${list.length} dari ${state.vendors.length} warung`;
+
+      if (list.length === 0) {
+        els.vendorGrid.innerHTML = `
+          <div class="empty-state" style="grid-column: 1 / -1;">
+            <strong>Tidak ada warung atau menu yang cocok.</strong>
+            <p style="margin: 6px 0 0;">Coba ubah kata kunci pencarian atau klik Reset Filter.</p>
+          </div>
+        `;
+        return;
+      }
+
+      els.vendorGrid.innerHTML = list
+        .map((v) => {
+          const open = isVendorOpenNow(v);
+          const menus = Array.isArray(v.menus) ? v.menus : [];
+          const previewMenus = menus.slice(0, 4);
+
+          return `
+            <article class="card">
+              <div>
+                <div class="card-top">
+                  <div>
+                    <div class="meta-tags">
+                      <span class="tag">${escapeHtml(v.area)}</span>
+                      <span class="tag">${escapeHtml(v.category)}</span>
+                      ${v.isCustom ? `<span class="tag tag-new">Baru</span>` : ""}
+                    </div>
+                    <h2 class="vendor-name">${escapeHtml(v.name)}</h2>
+                  </div>
+                  <span class="status-pill ${open ? "status-open" : "status-closed"}">
+                    ${open ? "Buka" : "Tutup"}
+                  </span>
+                </div>
+
+                <div class="hours">Jam buka: ${escapeHtml(v.openTime)} – ${escapeHtml(v.closeTime)} WIB</div>
+
+                ${v.notes ? `<p class="notes">${escapeHtml(v.notes)}</p>` : ""}
+
+                <div class="menu-preview">
+                  <div class="menu-preview-title">
+                    <span>Contoh Menu</span>
+                    <span>${menus.length} item</span>
+                  </div>
+                  ${previewMenus
+                    .map(
+                      (m) => `
+                    <div class="menu-item">
+                      <span class="menu-item-name">${escapeHtml(m.name)}</span>
+                      <span class="menu-price">${formatRupiah(m.price)}</span>
+                    </div>
+                  `
+                    )
+                    .join("")}
+                </div>
+              </div>
+
+              <div class="card-actions">
+                <button type="button" class="btn-secondary" data-open-modal="${escapeHtml(v.id)}">
+                  Lihat Menu (${menus.length})
+                </button>
+                <a href="${buildWaUrl(v)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Pesan WA
+                </a>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+
+      els.vendorGrid.querySelectorAll("[data-open-modal]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const vendor = state.vendors.find((item) => item.id === btn.dataset.openModal);
+          if (vendor) openModal(vendor);
+        });
+      });
+    }
+
+    function openModal(vendor) {
+      const menus = Array.isArray(vendor.menus) ? vendor.menus : [];
+      els.modalVendorName.textContent = vendor.name;
+      els.modalVendorMeta.textContent = `${vendor.area} • ${vendor.category} • ${vendor.openTime}–${vendor.closeTime} WIB`;
+      els.modalVendorNotes.textContent = vendor.notes || "Tidak ada catatan tambahan.";
+      els.modalMenuCount.textContent = `Total ${menus.length} menu`;
+      els.modalWaLink.href = buildWaUrl(vendor);
+
+      els.modalMenuList.innerHTML = menus
+        .map(
+          (m) => `
+          <div class="modal-menu-row">
+            <span>${escapeHtml(m.name)}</span>
+            <strong class="menu-price">${formatRupiah(m.price)}</strong>
+          </div>
+        `
+        )
+        .join("");
+
+      els.menuModal.classList.add("open");
+    }
+
+    function closeModal() {
+      els.menuModal.classList.remove("open");
+    }
+
+    function exportCleanJsonString() {
+      const cleanList = state.vendors.map(({ isCustom, ...rest }) => rest);
+      return JSON.stringify(cleanList, null, 2);
+    }
+
+    function refreshAll() {
+      state.vendors = getMergedVendors();
+      syncFiltersAndOptions();
+      renderStats();
+      renderVendors();
+      renderAdminStatus();
+    }
+
+    els.toggleAdminBtn.addEventListener("click", () => {
+      if (!state.adminUnlocked) {
+        openAuthModal();
+        return;
+      }
+      els.adminPanel.classList.toggle("open");
+      if (els.adminPanel.classList.contains("open") && !els.vendorIdInput.value) {
+        els.vendorIdInput.value = suggestNextVendorId();
+      }
+      syncAdminButtons();
+    });
+
+    els.lockAdminBtn.addEventListener("click", () => {
+      state.adminUnlocked = false;
+      els.adminPanel.classList.remove("open");
+      syncAdminButtons();
+    });
+
+    els.adminAuthForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const entered = els.adminPasswordInput.value.trim();
+      if (entered === ADMIN_PASS) {
+        state.adminUnlocked = true;
+        closeAuthModal();
+        els.adminPanel.classList.add("open");
+        if (!els.vendorIdInput.value) {
+          els.vendorIdInput.value = suggestNextVendorId();
+        }
+        syncAdminButtons();
+      } else {
+        els.adminAuthError.style.display = "block";
+        els.adminPasswordInput.focus();
+        els.adminPasswordInput.select();
+      }
+    });
+
+    els.closeAuthModalBtn.addEventListener("click", closeAuthModal);
+    els.cancelAuthBtn.addEventListener("click", closeAuthModal);
+    els.adminAuthModal.addEventListener("click", (e) => {
+      if (e.target === els.adminAuthModal) closeAuthModal();
+    });
+
+    document.querySelectorAll(".tab-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        document.querySelectorAll(".admin-tab-content").forEach((sec) => {
+          sec.style.display = "none";
+        });
+        const target = document.getElementById(btn.dataset.tab);
+        if (target) target.style.display = "block";
+      });
+    });
+
+    els.addDraftMenuBtn.addEventListener("click", () => {
+      const name = els.draftMenuNameInput.value.trim();
+      const price = Number(els.draftMenuPriceInput.value);
+      if (!name || Number.isNaN(price) || price <= 0) {
+        alert("Isi nama menu dan harga yang valid terlebih dahulu.");
+        return;
+      }
+      state.draftMenus.push({ name, price });
+      els.draftMenuNameInput.value = "";
+      els.draftMenuPriceInput.value = "";
+      renderDraftMenus();
+      els.draftMenuNameInput.focus();
+    });
+
+    els.addVendorForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const id = els.vendorIdInput.value.trim() || suggestNextVendorId();
+      if (state.vendors.some((v) => v.id.toLowerCase() === id.toLowerCase())) {
+        alert(`ID "${id}" sudah dipakai. Gunakan ID lain, misalnya ${suggestNextVendorId()}.`);
+        return;
+      }
+
+      const newVendor = {
+        id,
+        name: els.vendorNameInput.value.trim(),
+        area: els.vendorAreaInput.value.trim(),
+        category: els.vendorCategoryInput.value.trim(),
+        phone: els.vendorPhoneInput.value.trim().replace(/[^0-9]/g, ""),
+        openTime: els.vendorOpenInput.value.trim() || "09:00",
+        closeTime: els.vendorCloseInput.value.trim() || "21:00",
+        notes: els.vendorNotesInput.value.trim(),
+        menus: [...state.draftMenus]
+      };
+
+      state.customVendors.push(newVendor);
+      state.draftMenus = [];
+      saveLocalEdits();
+
+      els.addVendorForm.reset();
+      els.vendorOpenInput.value = "09:00";
+      els.vendorCloseInput.value = "21:00";
+      renderDraftMenus();
+      refreshAll();
+      els.vendorIdInput.value = suggestNextVendorId();
+      alert(`Resto "${newVendor.name}" berhasil ditambahkan!`);
+    });
+
+    els.addMenuToVendorForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const vendorId = els.targetVendorSelect.value;
+      const name = els.newMenuNameInput.value.trim();
+      const price = Number(els.newMenuPriceInput.value);
+      if (!vendorId || !name || Number.isNaN(price) || price <= 0) {
+        alert("Pilih resto dan isi nama menu serta harga yang valid.");
+        return;
+      }
+
+      if (!Array.isArray(state.addedMenusByVendorId[vendorId])) {
+        state.addedMenusByVendorId[vendorId] = [];
+      }
+      state.addedMenusByVendorId[vendorId].push({ name, price });
+      saveLocalEdits();
+
+      els.newMenuNameInput.value = "";
+      els.newMenuPriceInput.value = "";
+      refreshAll();
+      alert(`Menu "${name}" berhasil ditambahkan!`);
+    });
+
+    els.downloadJsonBtn.addEventListener("click", () => {
+      const blob = new Blob([exportCleanJsonString()], { type: "application/json;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "mealtelu-v7-v25-2026-11-25-clean-v2.json";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    els.copyJsonBtn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(exportCleanJsonString());
+        alert("JSON lengkap berhasil disalin ke clipboard.");
+      } catch {
+        alert("Gagal menyalin otomatis. Gunakan tombol Download JSON Baru.");
+      }
+    });
+
+    els.clearDraftsBtn.addEventListener("click", () => {
+      if (!confirm("Hapus semua resto baru & menu tambahan yang tersimpan di browser ini?")) return;
+      state.customVendors = [];
+      state.addedMenusByVendorId = {};
+      saveLocalEdits();
+      refreshAll();
+    });
+
+    els.searchInput.addEventListener("input", (e) => {
+      state.search = e.target.value;
+      renderVendors();
+    });
+
+    els.areaSelect.addEventListener("change", (e) => {
+      state.area = e.target.value;
+      renderVendors();
+    });
+
+    els.categorySelect.addEventListener("change", (e) => {
+      state.category = e.target.value;
+      renderVendors();
+    });
+
+    els.openOnlyCheckbox.addEventListener("change", (e) => {
+      state.openOnly = e.target.checked;
+      renderVendors();
+    });
+
+    els.resetBtn.addEventListener("click", () => {
+      state.search = "";
+      state.area = "";
+      state.category = "";
+      state.openOnly = false;
+      els.searchInput.value = "";
+      els.areaSelect.value = "";
+      els.categorySelect.value = "";
+      els.openOnlyCheckbox.checked = false;
+      renderVendors();
+    });
+
+    els.closeModalBtn.addEventListener("click", closeModal);
+    els.menuModal.addEventListener("click", (e) => {
+      if (e.target === els.menuModal) closeModal();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closeModal();
+        closeAuthModal();
+      }
+    });
+
+    async function init() {
+      loadLocalEdits();
+      renderDraftMenus();
+      syncAdminButtons();
+      try {
+        const res = await fetch(DATA_URL, { cache: "no-store" });
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status} saat memuat ${DATA_URL}`);
+        }
+        const data = await res.json();
+        if (!Array.isArray(data)) {
+          throw new Error("Format JSON tidak berupa array warung.");
+        }
+        state.baseVendors = data;
+        refreshAll();
+      } catch (err) {
+        state.baseVendors = [];
+        refreshAll();
+        els.errorBox.style.display = "block";
+        els.errorBox.innerHTML = `
+          <strong>Gagal memuat data warung dari JSON:</strong> ${escapeHtml(err.message)}<br />
+          Pastikan file <code>mealtelu-v7-v25-2026-11-25-clean-v2.json</code> berada di folder yang sama dengan <code>index.html</code> dan dibuka lewat server/hosting (bukan <code>file://</code>). Kamu tetap bisa memakai <strong>Dashboard Admin Resto</strong> untuk menambah data.
+        `;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
