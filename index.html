@@ -1,9 +1,9 @@
-index_fixed_html = """<!DOCTYPE html>
+index_v4_html = """<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MealTelu — Direktori Delivery Makanan Sekitar Telkom University</title>
+  <title>MealTelU — Direktori Delivery Makanan Sekitar Telkom University</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -61,6 +61,13 @@ index_fixed_html = """<!DOCTYPE html>
       flex-wrap: wrap;
       gap: 10px;
       margin-bottom: 12px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
     }
 
     .badge {
@@ -127,6 +134,7 @@ index_fixed_html = """<!DOCTYPE html>
 
     input[type="search"],
     input[type="text"],
+    input[type="password"],
     input[type="number"],
     textarea,
     select {
@@ -584,9 +592,14 @@ index_fixed_html = """<!DOCTYPE html>
     <header class="hero">
       <div class="hero-top">
         <div class="badge">MealTelu • Sekitar Telkom University</div>
-        <button id="toggleAdminBtn" type="button" class="btn-secondary">
-          ⚙️ Dashboard Admin Resto
-        </button>
+        <div class="hero-actions">
+          <button id="toggleAdminBtn" type="button" class="btn-secondary">
+            🔒 Dashboard Admin Resto
+          </button>
+          <button id="lockAdminBtn" type="button" class="btn-secondary" style="display: none;">
+            Kunci Admin
+          </button>
+        </div>
       </div>
       <h1>Direktori Delivery Makanan Mahasiswa</h1>
       <p class="subtitle">
@@ -758,6 +771,31 @@ index_fixed_html = """<!DOCTYPE html>
     </footer>
   </div>
 
+  <!-- Modal Password Dashboard Admin -->
+  <div id="adminAuthModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="adminAuthTitle">
+    <div class="modal" style="max-width: 420px;">
+      <div class="modal-header">
+        <div>
+          <h2 id="adminAuthTitle" class="modal-title">Akses Dashboard Admin</h2>
+          <div class="hours">Masukkan password admin untuk membuka dashboard</div>
+        </div>
+        <button id="closeAuthModalBtn" type="button" class="btn-secondary" aria-label="Tutup modal password">✕</button>
+      </div>
+      <form id="adminAuthForm" class="modal-body">
+        <label class="field-label" for="adminPasswordInput">Password Admin</label>
+        <input id="adminPasswordInput" type="password" placeholder="Masukkan password" autocomplete="current-password" required />
+        <div id="adminAuthError" style="display: none; margin-top: 8px; font-size: 12px; font-weight: 700; color: #b91c1c;">
+          Password salah. Coba lagi.
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px;">
+          <button id="cancelAuthBtn" type="button" class="btn-secondary">Batal</button>
+          <button type="submit" class="btn-primary" style="flex: 0 0 auto;">Masuk Dashboard</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal Menu Warung -->
   <div id="menuModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalVendorName">
     <div class="modal">
       <div class="modal-header">
@@ -784,6 +822,7 @@ index_fixed_html = """<!DOCTYPE html>
     const DATA_URL = "./mealtelu-v7-v25-2026-11-25-clean-v2.json";
     const STORAGE_KEY = "mealtelu_custom_vendors_v1";
     const MENU_PATCH_KEY = "mealtelu_added_menus_v1";
+    const ADMIN_PASS = "2626";
 
     const state = {
       baseVendors: [],
@@ -791,6 +830,7 @@ index_fixed_html = """<!DOCTYPE html>
       addedMenusByVendorId: {},
       vendors: [],
       draftMenus: [],
+      adminUnlocked: false,
       search: "",
       area: "",
       category: "",
@@ -799,7 +839,14 @@ index_fixed_html = """<!DOCTYPE html>
 
     const els = {
       toggleAdminBtn: document.getElementById("toggleAdminBtn"),
+      lockAdminBtn: document.getElementById("lockAdminBtn"),
       adminPanel: document.getElementById("adminPanel"),
+      adminAuthModal: document.getElementById("adminAuthModal"),
+      closeAuthModalBtn: document.getElementById("closeAuthModalBtn"),
+      cancelAuthBtn: document.getElementById("cancelAuthBtn"),
+      adminAuthForm: document.getElementById("adminAuthForm"),
+      adminPasswordInput: document.getElementById("adminPasswordInput"),
+      adminAuthError: document.getElementById("adminAuthError"),
       adminDraftStatus: document.getElementById("adminDraftStatus"),
       downloadJsonBtn: document.getElementById("downloadJsonBtn"),
       copyJsonBtn: document.getElementById("copyJsonBtn"),
@@ -933,6 +980,32 @@ index_fixed_html = """<!DOCTYPE html>
         .filter((n) => n > 0);
       const nextNum = (nums.length ? Math.max(...nums) : 25) + 1;
       return `v${nextNum}`;
+    }
+
+    function syncAdminButtons() {
+      if (state.adminUnlocked) {
+        els.toggleAdminBtn.textContent = els.adminPanel.classList.contains("open")
+          ? "🔓 Sembunyikan Dashboard Admin"
+          : "🔓 Buka Dashboard Admin Resto";
+        els.lockAdminBtn.style.display = "inline-flex";
+      } else {
+        els.toggleAdminBtn.textContent = "🔒 Dashboard Admin Resto";
+        els.lockAdminBtn.style.display = "none";
+        els.adminPanel.classList.remove("open");
+      }
+    }
+
+    function openAuthModal() {
+      els.adminAuthError.style.display = "none";
+      els.adminPasswordInput.value = "";
+      els.adminAuthModal.classList.add("open");
+      setTimeout(() => els.adminPasswordInput.focus(), 20);
+    }
+
+    function closeAuthModal() {
+      els.adminAuthModal.classList.remove("open");
+      els.adminAuthError.style.display = "none";
+      els.adminPasswordInput.value = "";
     }
 
     function syncFiltersAndOptions() {
@@ -1204,10 +1277,45 @@ index_fixed_html = """<!DOCTYPE html>
     }
 
     els.toggleAdminBtn.addEventListener("click", () => {
+      if (!state.adminUnlocked) {
+        openAuthModal();
+        return;
+      }
       els.adminPanel.classList.toggle("open");
       if (els.adminPanel.classList.contains("open") && !els.vendorIdInput.value) {
         els.vendorIdInput.value = suggestNextVendorId();
       }
+      syncAdminButtons();
+    });
+
+    els.lockAdminBtn.addEventListener("click", () => {
+      state.adminUnlocked = false;
+      els.adminPanel.classList.remove("open");
+      syncAdminButtons();
+    });
+
+    els.adminAuthForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const entered = els.adminPasswordInput.value.trim();
+      if (entered === ADMIN_PASS) {
+        state.adminUnlocked = true;
+        closeAuthModal();
+        els.adminPanel.classList.add("open");
+        if (!els.vendorIdInput.value) {
+          els.vendorIdInput.value = suggestNextVendorId();
+        }
+        syncAdminButtons();
+      } else {
+        els.adminAuthError.style.display = "block";
+        els.adminPasswordInput.focus();
+        els.adminPasswordInput.select();
+      }
+    });
+
+    els.closeAuthModalBtn.addEventListener("click", closeAuthModal);
+    els.cancelAuthBtn.addEventListener("click", closeAuthModal);
+    els.adminAuthModal.addEventListener("click", (e) => {
+      if (e.target === els.adminAuthModal) closeAuthModal();
     });
 
     document.querySelectorAll(".tab-btn").forEach((btn) => {
@@ -1357,12 +1465,16 @@ index_fixed_html = """<!DOCTYPE html>
       if (e.target === els.menuModal) closeModal();
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeModal();
+      if (e.key === "Escape") {
+        closeModal();
+        closeAuthModal();
+      }
     });
 
     async function init() {
       loadLocalEdits();
       renderDraftMenus();
+      syncAdminButtons();
       try {
         const res = await fetch(DATA_URL, { cache: "no-store" });
         if (!res.ok) {
@@ -1391,7 +1503,11 @@ index_fixed_html = """<!DOCTYPE html>
 </html>
 """
 
-with open("index.html", "w", encoding="utf-8") as f:
-    f.write(index_fixed_html)
+with open("index_v4.html", "w", encoding="utf-8") as f:
+    f.write(index_v4_html)
 
-print("Updated index.html with minmax(0, 1fr), bytes:", len(index_fixed_html.encode("utf-8")))
+assert index_v4_html.startswith("<!DOCTYPE html>")
+assert index_v4_html.strip().endswith("</html>")
+assert 'const ADMIN_PASS = "2626";' in index_v4_html
+assert "<h1>Direktori Delivery Makanan Mahasiswa</h1>" in index_v4_html
+print("Saved clean index_v4.html, bytes:", len(index_v4_html.encode("utf-8")))
