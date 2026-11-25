@@ -1,23 +1,22 @@
-with open("index_v6.html", "r", encoding="utf-8") as f:
+with open("index_v4.html", "r", encoding="utf-8") as f:
     src = f.read()
 
-old_wa_line = 'const text = `Halo ${vendor.name}, saya mau pesan makanan.`;'
-new_wa_line = 'const text = "halo saya mau pesan";'
+index_v5_html = src.replace(
+    "<title>MealTelU — Direktori Delivery Makanan Sekitar Telkom University</title>",
+    "<title>MealTelU — Delivery Makanan Sekitar Telkom University</title>"
+).replace(
+    "<h1>Direktori Delivery Makanan Mahasiswa</h1>",
+    "<h1>MealTelU</h1>"
+)
 
-assert old_wa_line in src, "Expected WA template line not found in index_v6.html"
+assert index_v5_html.startswith("<!DOCTYPE html>")
+assert index_v5_html.strip().endswith("</html>")
+assert 'const ADMIN_PASS = "2626";' in index_v5_html
+assert "<title>MealTelU — Delivery Makanan Sekitar Telkom University</title>" in index_v5_html
+assert "<h1>MealTelU</h1>" in index_v5_html
+assert "Direktori Delivery Makanan Mahasiswa" not in index_v5_html
 
-index_v7_html = src.replace(old_wa_line, new_wa_line, 1)
+with open("index_v5.html", "w", encoding="utf-8") as f:
+    f.write(index_v5_html)
 
-assert index_v7_html.startswith("<!DOCTYPE html>")
-assert index_v7_html.strip().endswith("</html>")
-assert 'const ADMIN_PASS = "2626";' in index_v7_html
-assert "<title>MealTelU — Delivery Makanan Sekitar Telkom University</title>" in index_v7_html
-assert "<h1>MealTelU</h1>" in index_v7_html
-assert new_wa_line in index_v7_html
-assert "saya mau pesan makanan" not in index_v7_html
-assert "lewat MealTelu" not in index_v7_html
-
-with open("index_v7.html", "w", encoding="utf-8") as f:
-    f.write(index_v7_html)
-
-print("Saved index_v7.html successfully, bytes:", len(index_v7_html.encode("utf-8")))
+print("Saved index_v5.html successfully, bytes:", len(index_v5_html.encode("utf-8")))
